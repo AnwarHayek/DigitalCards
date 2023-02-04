@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0405BD15298BB51B007153C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405BD14298BB51B007153C0 /* AppDelegate.swift */; };
 		0405BD17298BB51B007153C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405BD16298BB51B007153C0 /* SceneDelegate.swift */; };
-		0405BD19298BB51B007153C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405BD18298BB51B007153C0 /* ViewController.swift */; };
 		0405BD1C298BB51B007153C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0405BD1A298BB51B007153C0 /* Main.storyboard */; };
 		0405BD1E298BB51C007153C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0405BD1D298BB51C007153C0 /* Assets.xcassets */; };
 		0405BD21298BB51C007153C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0405BD1F298BB51C007153C0 /* LaunchScreen.storyboard */; };
+		0405BD36298BB89B007153C0 /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0405BD33298BB89B007153C0 /* Sora-Bold.ttf */; };
+		0405BD37298BB89B007153C0 /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0405BD34298BB89B007153C0 /* Sora-Regular.ttf */; };
+		0405BD38298BB89B007153C0 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0405BD35298BB89B007153C0 /* Sora-SemiBold.ttf */; };
+		0405BD3A298BBB26007153C0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405BD39298BBB26007153C0 /* TabBarController.swift */; };
+		0405BD3D298BBBC6007153C0 /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405BD3C298BBBC6007153C0 /* UIColorEx.swift */; };
+		0405BD3F298BBBE5007153C0 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405BD3E298BBBE5007153C0 /* StringEx.swift */; };
+		04096317298D3D9000B447D6 /* UICollectionViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04096316298D3D9000B447D6 /* UICollectionViewEx.swift */; };
+		04096319298D3DC300B447D6 /* UIResponderEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04096318298D3DC300B447D6 /* UIResponderEx.swift */; };
+		0409631D298D5CDE00B447D6 /* BoardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409631B298D5CDE00B447D6 /* BoardingCell.swift */; };
+		0409631E298D5CDE00B447D6 /* BoardingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0409631C298D5CDE00B447D6 /* BoardingCell.xib */; };
+		04096320298D68F600B447D6 /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409631F298D68F600B447D6 /* UIViewEx.swift */; };
+		04096322298D6B1B00B447D6 /* UIKitHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04096321298D6B1B00B447D6 /* UIKitHelpers.swift */; };
+		04A9E423298EEECE00A09997 /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9E422298EEECE00A09997 /* UIViewControllerEx.swift */; };
+		04A9E425298EF16800A09997 /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A9E424298EF16800A09997 /* Contacts.storyboard */; };
+		04DE4201298CF95500AB0744 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE4200298CF95500AB0744 /* GlobalConstants.swift */; };
+		04DE4204298CFA8100AB0744 /* BoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE4203298CFA8100AB0744 /* BoardingViewController.swift */; };
+		1C35A260BD015A986F2A7DF5 /* Pods_DigitalCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787BCA8734302B20C4FB2EE2 /* Pods_DigitalCards.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0405BD11298BB51B007153C0 /* DigitalCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0405BD14298BB51B007153C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0405BD16298BB51B007153C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0405BD18298BB51B007153C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0405BD1B298BB51B007153C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0405BD1D298BB51C007153C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0405BD20298BB51C007153C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0405BD22298BB51C007153C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0405BD33298BB89B007153C0 /* Sora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Bold.ttf"; sourceTree = "<group>"; };
+		0405BD34298BB89B007153C0 /* Sora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Regular.ttf"; sourceTree = "<group>"; };
+		0405BD35298BB89B007153C0 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-SemiBold.ttf"; sourceTree = "<group>"; };
+		0405BD39298BBB26007153C0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0405BD3C298BBBC6007153C0 /* UIColorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
+		0405BD3E298BBBE5007153C0 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
+		04096316298D3D9000B447D6 /* UICollectionViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewEx.swift; sourceTree = "<group>"; };
+		04096318298D3DC300B447D6 /* UIResponderEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResponderEx.swift; sourceTree = "<group>"; };
+		0409631B298D5CDE00B447D6 /* BoardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingCell.swift; sourceTree = "<group>"; };
+		0409631C298D5CDE00B447D6 /* BoardingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BoardingCell.xib; sourceTree = "<group>"; };
+		0409631F298D68F600B447D6 /* UIViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
+		04096321298D6B1B00B447D6 /* UIKitHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitHelpers.swift; sourceTree = "<group>"; };
+		04A9E422298EEECE00A09997 /* UIViewControllerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerEx.swift; sourceTree = "<group>"; };
+		04A9E424298EF16800A09997 /* Contacts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contacts.storyboard; sourceTree = "<group>"; };
+		04DE4200298CF95500AB0744 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		04DE4203298CFA8100AB0744 /* BoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingViewController.swift; sourceTree = "<group>"; };
+		787BCA8734302B20C4FB2EE2 /* Pods_DigitalCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B79578B201ECC90ABBC0A2 /* Pods-DigitalCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalCards.release.xcconfig"; path = "Target Support Files/Pods-DigitalCards/Pods-DigitalCards.release.xcconfig"; sourceTree = "<group>"; };
+		F9ED9E4882FD94AADA11B1D6 /* Pods-DigitalCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalCards.debug.xcconfig"; path = "Target Support Files/Pods-DigitalCards/Pods-DigitalCards.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C35A260BD015A986F2A7DF5 /* Pods_DigitalCards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				0405BD13298BB51B007153C0 /* DigitalCards */,
 				0405BD12298BB51B007153C0 /* Products */,
+				A56590FC62477FBEE94849EC /* Pods */,
+				12B2E200C12C695364875964 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +95,149 @@
 			children = (
 				0405BD14298BB51B007153C0 /* AppDelegate.swift */,
 				0405BD16298BB51B007153C0 /* SceneDelegate.swift */,
-				0405BD18298BB51B007153C0 /* ViewController.swift */,
-				0405BD1A298BB51B007153C0 /* Main.storyboard */,
-				0405BD1D298BB51C007153C0 /* Assets.xcassets */,
-				0405BD1F298BB51C007153C0 /* LaunchScreen.storyboard */,
-				0405BD22298BB51C007153C0 /* Info.plist */,
+				0405BD28298BB576007153C0 /* Storyboards */,
+				0405BD29298BB57C007153C0 /* ViewControllers */,
+				0405BD2F298BB5DA007153C0 /* Models */,
+				0405BD2E298BB5D0007153C0 /* Utils */,
+				0405BD30298BB5EA007153C0 /* SupportingFiles */,
 			);
 			path = DigitalCards;
+			sourceTree = "<group>";
+		};
+		0405BD28298BB576007153C0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0405BD1A298BB51B007153C0 /* Main.storyboard */,
+				04A9E424298EF16800A09997 /* Contacts.storyboard */,
+				0405BD1F298BB51C007153C0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0405BD29298BB57C007153C0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0405BD2A298BB582007153C0 /* Xibs */,
+				0405BD39298BBB26007153C0 /* TabBarController.swift */,
+				04DE4202298CFA4000AB0744 /* Boarding */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0405BD2A298BB582007153C0 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				0405BD2D298BB5A9007153C0 /* Views */,
+				0405BD2C298BB59B007153C0 /* CollectionViewCells */,
+				0405BD2B298BB58B007153C0 /* TableViewCells */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		0405BD2B298BB58B007153C0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		0405BD2C298BB59B007153C0 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0409631A298D5B1B00B447D6 /* BoardingCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		0405BD2D298BB5A9007153C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0405BD2E298BB5D0007153C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0405BD3B298BBBBD007153C0 /* Extensions */,
+				04DE4200298CF95500AB0744 /* GlobalConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0405BD2F298BB5DA007153C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0405BD30298BB5EA007153C0 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0405BD32298BB886007153C0 /* Fonts */,
+				0405BD22298BB51C007153C0 /* Info.plist */,
+				0405BD1D298BB51C007153C0 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0405BD32298BB886007153C0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0405BD33298BB89B007153C0 /* Sora-Bold.ttf */,
+				0405BD34298BB89B007153C0 /* Sora-Regular.ttf */,
+				0405BD35298BB89B007153C0 /* Sora-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0405BD3B298BBBBD007153C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0405BD3C298BBBC6007153C0 /* UIColorEx.swift */,
+				0405BD3E298BBBE5007153C0 /* StringEx.swift */,
+				04096316298D3D9000B447D6 /* UICollectionViewEx.swift */,
+				04096318298D3DC300B447D6 /* UIResponderEx.swift */,
+				0409631F298D68F600B447D6 /* UIViewEx.swift */,
+				04096321298D6B1B00B447D6 /* UIKitHelpers.swift */,
+				04A9E422298EEECE00A09997 /* UIViewControllerEx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0409631A298D5B1B00B447D6 /* BoardingCell */ = {
+			isa = PBXGroup;
+			children = (
+				0409631B298D5CDE00B447D6 /* BoardingCell.swift */,
+				0409631C298D5CDE00B447D6 /* BoardingCell.xib */,
+			);
+			path = BoardingCell;
+			sourceTree = "<group>";
+		};
+		04DE4202298CFA4000AB0744 /* Boarding */ = {
+			isa = PBXGroup;
+			children = (
+				04DE4203298CFA8100AB0744 /* BoardingViewController.swift */,
+			);
+			path = Boarding;
+			sourceTree = "<group>";
+		};
+		12B2E200C12C695364875964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				787BCA8734302B20C4FB2EE2 /* Pods_DigitalCards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A56590FC62477FBEE94849EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9ED9E4882FD94AADA11B1D6 /* Pods-DigitalCards.debug.xcconfig */,
+				88B79578B201ECC90ABBC0A2 /* Pods-DigitalCards.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0405BD25298BB51C007153C0 /* Build configuration list for PBXNativeTarget "DigitalCards" */;
 			buildPhases = (
+				12B2DBE4B2DFEDDD5F683E3E /* [CP] Check Pods Manifest.lock */,
 				0405BD0D298BB51B007153C0 /* Sources */,
 				0405BD0E298BB51B007153C0 /* Frameworks */,
 				0405BD0F298BB51B007153C0 /* Resources */,
+				67200557BE2D367F702FBB76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +278,7 @@
 				};
 			};
 			buildConfigurationList = 0405BD0C298BB51B007153C0 /* Build configuration list for PBXProject "DigitalCards" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,21 +300,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0405BD36298BB89B007153C0 /* Sora-Bold.ttf in Resources */,
+				04A9E425298EF16800A09997 /* Contacts.storyboard in Resources */,
 				0405BD21298BB51C007153C0 /* LaunchScreen.storyboard in Resources */,
 				0405BD1E298BB51C007153C0 /* Assets.xcassets in Resources */,
 				0405BD1C298BB51B007153C0 /* Main.storyboard in Resources */,
+				0405BD38298BB89B007153C0 /* Sora-SemiBold.ttf in Resources */,
+				0405BD37298BB89B007153C0 /* Sora-Regular.ttf in Resources */,
+				0409631E298D5CDE00B447D6 /* BoardingCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12B2DBE4B2DFEDDD5F683E3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigitalCards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67200557BE2D367F702FBB76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigitalCards/Pods-DigitalCards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigitalCards/Pods-DigitalCards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitalCards/Pods-DigitalCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0405BD0D298BB51B007153C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0405BD19298BB51B007153C0 /* ViewController.swift in Sources */,
+				04096320298D68F600B447D6 /* UIViewEx.swift in Sources */,
+				0405BD3A298BBB26007153C0 /* TabBarController.swift in Sources */,
+				04096322298D6B1B00B447D6 /* UIKitHelpers.swift in Sources */,
+				0409631D298D5CDE00B447D6 /* BoardingCell.swift in Sources */,
 				0405BD15298BB51B007153C0 /* AppDelegate.swift in Sources */,
+				0405BD3F298BBBE5007153C0 /* StringEx.swift in Sources */,
+				04DE4204298CFA8100AB0744 /* BoardingViewController.swift in Sources */,
+				04096317298D3D9000B447D6 /* UICollectionViewEx.swift in Sources */,
+				04DE4201298CF95500AB0744 /* GlobalConstants.swift in Sources */,
+				04096319298D3DC300B447D6 /* UIResponderEx.swift in Sources */,
+				04A9E423298EEECE00A09997 /* UIViewControllerEx.swift in Sources */,
+				0405BD3D298BBBC6007153C0 /* UIColorEx.swift in Sources */,
 				0405BD17298BB51B007153C0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +514,7 @@
 		};
 		0405BD26298BB51C007153C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9ED9E4882FD94AADA11B1D6 /* Pods-DigitalCards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,12 +522,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5FC86J7QRY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DigitalCards/Info.plist;
+				INFOPLIST_FILE = DigitalCards/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,14 +536,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "anwar-alhayek.DigitalCards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0405BD27298BB51C007153C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B79578B201ECC90ABBC0A2 /* Pods-DigitalCards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,12 +555,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5FC86J7QRY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DigitalCards/Info.plist;
+				INFOPLIST_FILE = DigitalCards/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +569,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "anwar-alhayek.DigitalCards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
