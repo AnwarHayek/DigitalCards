@@ -38,8 +38,8 @@ class BoardingViewController: UIViewController {
     }
 
     @IBAction func btnStartNow(_ sender: Any) {
-        let vc = TabBarController.instantiate(appStoryboard: .Main)
-        self.changeRootViewController(vc)
+        let vc = TabBarController()
+        vc._rootPush()
     }
 
     @IBAction func btnNext(_ sender: Any) {
@@ -50,8 +50,8 @@ class BoardingViewController: UIViewController {
     }
 
     @IBAction func btnSkip(_ sender: Any) {
-        let vc = TabBarController.instantiate(appStoryboard: .Main)
-        self.changeRootViewController(vc)
+        let vc = TabBarController()
+        vc._rootPush()
     }
 }
 
