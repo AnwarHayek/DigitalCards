@@ -7,4 +7,6 @@ target 'DigitalCards' do
 
   # Pods for DigitalCards
     pod 'JXPageControl'
+    pod 'GravitySliderFlowLayout'
+    
 end

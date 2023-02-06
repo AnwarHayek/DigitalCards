@@ -16,9 +16,22 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_LaunchBackground" translatesAutoresizingMaskIntoConstraints="NO" id="qc1-tA-Ex2">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="384.66666666666669"/>
+                                <color key="backgroundColor" red="0.33067094299999999" green="0.74896941459999999" blue="0.1212090207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qc1-tA-Ex2" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="Hac-yD-xoh"/>
+                            <constraint firstItem="qc1-tA-Ex2" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.5" id="f68-pe-EL4"/>
+                            <constraint firstItem="qc1-tA-Ex2" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="h1F-C2-FAo"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="qc1-tA-Ex2" secondAttribute="trailing" id="yO6-xh-kNg"/>
+                        </constraints>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -27,6 +40,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ic_LaunchBackground" width="375" height="812"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

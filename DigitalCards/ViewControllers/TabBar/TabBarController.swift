@@ -9,14 +9,24 @@ import UIKit
 
 class TabBarController: UITabBarController {
 
+    private let titleLabel = UILabel()
+    private let titleBarButton = UIBarButtonItem()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.customizeTabBar()
         self.setUpViews()
+        self.configuerNavigationItems()
+        
+        titleLabel.frame = CGRect.init(x: 0, y: 0, width: 145, height: 24)
+        titleLabel.textColor = color_FFFFFF
+        titleLabel.font = Sora_SemiBold18
+        titleLabel.text = tabBar.items?.first?.title
+        titleBarButton.customView = titleLabel
     }
 
 
-    func customizeTabBar() {
+    private func customizeTabBar() {
 //        //Changing tab bar color
         UITabBar.appearance().barTintColor = color_FFFFFF
         UITabBar.appearance().backgroundColor = color_FFFFFF
@@ -52,4 +62,39 @@ class TabBarController: UITabBarController {
             vc1, vc2, vc3, vc4, vc5
         ]
     }
+
+    private func configuerNavigationItems() {
+        self.navigationItem.leftBarButtonItems = [
+            UIBarButtonItem(image: ic_menu, style: .plain, target: self, action: #selector(menuAction)),
+            titleBarButton
+        ]
+        self.navigationItem.rightBarButtonItems = [
+            UIBarButtonItem(image: ic_setting, style: .plain, target: self, action: #selector(settingAction)),
+            UIBarButtonItem(image: ic_share, style: .plain, target: self, action: #selector(shareAction)),
+        ]
+
+    }
+
+}
+
+extension TabBarController {
+
+    override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        titleLabel.text = item.title
+        titleBarButton.customView = titleLabel
+        self.navigationItem.leftBarButtonItems?[1] = titleBarButton
+    }
+    
+    @objc func menuAction() {
+        debugPrint(#function)
+    }
+
+    @objc func shareAction() {
+        debugPrint(#function)
+    }
+
+    @objc func settingAction() {
+        debugPrint(#function)
+    }
+
 }

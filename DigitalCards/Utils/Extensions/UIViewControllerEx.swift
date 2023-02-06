@@ -63,6 +63,49 @@ extension UIViewController {
     }
 }
 
+extension UIViewController {
+
+//    var _getStatusBarHeightBottom: CGFloat? {
+//        return UIApplication.shared.keyWindow?.safeAreaInsets.bottom
+//    }
+//
+//    var _getStatusBarHeightTop: CGFloat? {
+//        return UIApplication.shared.keyWindow?.safeAreaInsets.top
+//    }
+//
+//    var _screenHeight: CGFloat {
+//        return UIScreen.main.bounds.height
+//    }
+//
+//    var _screenWidth: CGFloat {
+//        return UIScreen.main.bounds.width
+//    }
+//
+    var _isHideNavigation: Bool {
+        set {
+            self.navigationController?.setNavigationBarHidden(newValue, animated: true)
+        }
+        get {
+            return self.navigationController?.isNavigationBarHidden ?? false
+        }
+    }
+//
+//    func _emptyImgaeNavigation() {
+//        self.navigationController?.navigationBar.setBackgroundImage(UIImage.init(), for: .top, barMetrics: .default)
+//    }
+//
+//    func _nilImgaeNavigation() {
+//        self.navigationController?.navigationBar.setBackgroundImage(nil, for: .default)
+//    }
+//
+//    func _setTitleBackBarButton() {
+//        navigationController?.navigationBar.topItem?.backButtonTitle = ""
+//        navigationController?.navigationBar.tintColor = color_1E1F20
+//    }
+//
+}
+
+
 //// MARK: - Alerts Shortcuts
 //extension UIViewController {
 //    func _showAlertOK(title: String = ALERT_TITLE, message: String?, okButtonAction: (() -> Void)? = nil) {
@@ -107,44 +150,3 @@ extension UIViewController {
 //
 //}
 //
-//extension UIViewController {
-//
-//    var _getStatusBarHeightBottom: CGFloat? {
-//        return UIApplication.shared.keyWindow?.safeAreaInsets.bottom
-//    }
-//
-//    var _getStatusBarHeightTop: CGFloat? {
-//        return UIApplication.shared.keyWindow?.safeAreaInsets.top
-//    }
-//
-//    var _screenHeight: CGFloat {
-//        return UIScreen.main.bounds.height
-//    }
-//
-//    var _screenWidth: CGFloat {
-//        return UIScreen.main.bounds.width
-//    }
-//
-//    var _isHideNavigation: Bool {
-//        set {
-//            self.navigationController?.setNavigationBarHidden(newValue, animated: true)
-//        }
-//        get {
-//            return self.navigationController?.isNavigationBarHidden ?? false
-//        }
-//    }
-//
-//    func _emptyImgaeNavigation() {
-//        self.navigationController?.navigationBar.setBackgroundImage(UIImage.init(), for: .top, barMetrics: .default)
-//    }
-//
-//    func _nilImgaeNavigation() {
-//        self.navigationController?.navigationBar.setBackgroundImage(nil, for: .default)
-//    }
-//
-//    func _setTitleBackBarButton() {
-//        navigationController?.navigationBar.topItem?.backButtonTitle = ""
-//        navigationController?.navigationBar.tintColor = color_1E1F20
-//    }
-//
-//}

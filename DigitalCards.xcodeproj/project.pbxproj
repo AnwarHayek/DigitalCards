@@ -37,6 +37,8 @@
 		E76B6CC7298FDF610017659F /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76B6CC6298FDF610017659F /* Third.storyboard */; };
 		E76B6CC9298FE02D0017659F /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CC8298FE02D0017659F /* MainNavigationViewController.swift */; };
 		E76B6CCB298FE4DB0017659F /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CCA298FE4DB0017659F /* Strings.swift */; };
+		E76B6CD0299014170017659F /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CCE299014170017659F /* CardCollectionViewCell.swift */; };
+		E76B6CD1299014170017659F /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E76B6CCF299014170017659F /* CardCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		E76B6CC6298FDF610017659F /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
 		E76B6CC8298FE02D0017659F /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
 		E76B6CCA298FE4DB0017659F /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		E76B6CCE299014170017659F /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		E76B6CCF299014170017659F /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
 		F9ED9E4882FD94AADA11B1D6 /* Pods-DigitalCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalCards.debug.xcconfig"; path = "Target Support Files/Pods-DigitalCards/Pods-DigitalCards.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +159,7 @@
 		0405BD2C298BB59B007153C0 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				E76B6CCD299013EE0017659F /* Card */,
 				0409631A298D5B1B00B447D6 /* BoardingCell */,
 			);
 			path = CollectionViewCells;
@@ -312,6 +317,15 @@
 			path = Notifications;
 			sourceTree = "<group>";
 		};
+		E76B6CCD299013EE0017659F /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				E76B6CCE299014170017659F /* CardCollectionViewCell.swift */,
+				E76B6CCF299014170017659F /* CardCollectionViewCell.xib */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -378,6 +392,7 @@
 				0405BD1E298BB51C007153C0 /* Assets.xcassets in Resources */,
 				0405BD1C298BB51B007153C0 /* Main.storyboard in Resources */,
 				0405BD38298BB89B007153C0 /* Sora-SemiBold.ttf in Resources */,
+				E76B6CD1299014170017659F /* CardCollectionViewCell.xib in Resources */,
 				0405BD37298BB89B007153C0 /* Sora-Regular.ttf in Resources */,
 				E76B6CC7298FDF610017659F /* Third.storyboard in Resources */,
 				0409631E298D5CDE00B447D6 /* BoardingCell.xib in Resources */,
@@ -437,6 +452,7 @@
 				0405BD3A298BBB26007153C0 /* TabBarController.swift in Sources */,
 				E76B6CCB298FE4DB0017659F /* Strings.swift in Sources */,
 				E76B6CBC298FD7DD0017659F /* CardsViewController.swift in Sources */,
+				E76B6CD0299014170017659F /* CardCollectionViewCell.swift in Sources */,
 				E76B6CC9298FE02D0017659F /* MainNavigationViewController.swift in Sources */,
 				04096322298D6B1B00B447D6 /* UIKitHelpers.swift in Sources */,
 				0409631D298D5CDE00B447D6 /* BoardingCell.swift in Sources */,

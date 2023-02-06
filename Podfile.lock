@@ -1,4 +1,5 @@
 PODS:
+  - GravitySliderFlowLayout (1.0)
   - JXPageControl (0.1.5):
     - JXPageControl/Common (= 0.1.5)
     - JXPageControl/Jump (= 0.1.5)
@@ -10,15 +11,18 @@ PODS:
     - JXPageControl/Common
 
 DEPENDENCIES:
+  - GravitySliderFlowLayout
   - JXPageControl
 
 SPEC REPOS:
   trunk:
+    - GravitySliderFlowLayout
     - JXPageControl
 
 SPEC CHECKSUMS:
+  GravitySliderFlowLayout: bb9ae6a302b85821c9e0271c00533fae8091143b
   JXPageControl: e9487b39e2e58fc17790833214f3b8e935bef98b
 
-PODFILE CHECKSUM: cf52b3c9c376bbc068a7f76436e0ddd9fca1f0ce
+PODFILE CHECKSUM: af3d5fda1afd337f840c5c45d2c14179697a8d6d
 
 COCOAPODS: 1.11.3
