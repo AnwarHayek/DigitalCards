@@ -86,7 +86,8 @@ extension TabBarController {
     }
     
     @objc func menuAction() {
-        debugPrint(#function)
+        let vc = MenuViewController.instantiate(appStoryboard: .Third)
+        vc._push()
     }
 
     @objc func shareAction() {

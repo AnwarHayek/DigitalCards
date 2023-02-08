@@ -24,7 +24,8 @@ extension MainNavigationController {
     private func setupViewDidLoad() {
         AppDelegate.shared?.rootNavigationController = self
         setRoot()
-        self.color = color_FFFFFF
+        setUpNavigation()
+//        self.color = color_FFFFFF
     }
 }
 
@@ -34,7 +35,25 @@ extension MainNavigationController {
         let vc: BoardingViewController = BoardingViewController.instantiate(appStoryboard: .Main)
         vc._rootPush()
     }
+    
+    func setUpNavigation() {
+        
+        //Empty Back Button Title
+        UINavigationBar.appearance().topItem?.backButtonTitle = ""
 
+        //Change Back Button Color
+        UIBarButtonItem.appearance().tintColor = .white
+
+        //Edit Font Small Title
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.font: Sora_SemiBold24]
+
+        //Delete Shadow
+        UINavigationBar.appearance().shadowImage = UIImage.init()
+
+        //Edit Navigation Bar Color when sceoll ViewController
+        UINavigationBar.appearance().barTintColor = .white
+
+    }
 }
 
 extension UINavigationController {
@@ -59,7 +78,7 @@ extension UINavigationController {
 
     private func setProperties(color: UIColor) {
 
-        let titleTextAttributes = [NSAttributedString.Key.foregroundColor: color, NSAttributedString.Key.font: Sora_SemiBold24 ?? UIFont.systemFont(ofSize: 24, weight: .bold)]
+        let titleTextAttributes = [NSAttributedString.Key.foregroundColor: color, NSAttributedString.Key.font: Sora_SemiBold24]
 
         if #available(iOS 13, *) {
 

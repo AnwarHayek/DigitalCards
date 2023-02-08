@@ -10,9 +10,11 @@ import UIKit
 
 // MARK: - Fonts
 let SORA_REGULAR10 = UIFont.init(name: "Sora-Regular", size: 10) ?? SYSTEM_FONT_REGULAR20
-let Sora_SemiBold24 = UIFont.init(name: "Sora-SemiBold", size: 24)
+let Sora_SemiBold24 = UIFont.init(name: "Sora-SemiBold", size: 24) ?? SYSTEM_FONT_MEDIUM24
 let Sora_SemiBold18 = UIFont.init(name: "Sora-SemiBold", size: 20)
+
 let SYSTEM_FONT_REGULAR20 = UIFont.systemFont(ofSize: 10, weight: .regular)
+let SYSTEM_FONT_MEDIUM24 = UIFont.systemFont(ofSize: 24, weight: .medium)
 
 // MARK: - Colors
 let color_FFFFFF = "FFFFFF"._color
@@ -43,7 +45,9 @@ let ic_card1 = "ic_card1"._toImage
 let ic_setting = "ic_setting"._toImage
 let ic_share = "ic_share"._toImage
 let ic_menu = "ic_menu"._toImage
-
+let ic_exit = "ic_Exit"._toImage
+let ic_grennWallet = "ic_grennWallet"._toImage
+let ic_addPeople = "ic_addPeople"._toImage
 
 // MARK: - Demo
 let demo = "demo"._toImage
