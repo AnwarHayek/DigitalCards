@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Sora-Regular.ttf">
+            <string>Sora-Regular</string>
+        </array>
+        <array key="Sora-SemiBold.ttf">
+            <string>Sora-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="WalletHeader" id="iN0-l3-epB" customClass="WalletHeader" customModule="DigitalCards" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="186"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="hnb-Jb-dSd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="186"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EbM-QH-9WC">
+                            <rect key="frame" x="16" y="24" width="343" height="100"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_walletHeader" translatesAutoresizingMaskIntoConstraints="NO" id="EiX-jk-6Vh">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="100"/>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lek-51-51j">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="100"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Qu9-ie-aCT">
+                                            <rect key="frame" x="16" y="20" width="140.33333333333334" height="60"/>
+                                            <subviews>
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nrv-yb-GEl">
+                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_goldWallet" translatesAutoresizingMaskIntoConstraints="NO" id="f3C-gm-mC1">
+                                                            <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstItem="f3C-gm-mC1" firstAttribute="centerX" secondItem="Nrv-yb-GEl" secondAttribute="centerX" id="3qZ-Mr-Pd0"/>
+                                                        <constraint firstAttribute="width" constant="60" id="VzB-Fe-Q0Y"/>
+                                                        <constraint firstItem="f3C-gm-mC1" firstAttribute="centerY" secondItem="Nrv-yb-GEl" secondAttribute="centerY" id="X8b-3s-UVP"/>
+                                                        <constraint firstAttribute="height" constant="60" id="XfJ-Q8-aXt"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="16"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="C6H-0x-M06">
+                                                    <rect key="frame" x="71" y="0.0" width="69.333333333333314" height="60"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="MPB-NG-aiY">
+                                                            <rect key="frame" x="0.0" y="4" width="69.333333333333329" height="52.333333333333336"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="124$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FoJ-kt-4bK">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="69.333333333333329" height="23"/>
+                                                                    <fontDescription key="fontDescription" name="Sora-SemiBold" family="Sora" pointSize="18"/>
+                                                                    <color key="textColor" name="242333"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vW7-nF-TKq">
+                                                                    <rect key="frame" x="0.0" y="32" width="69.333333333333329" height="20.333333333333329"/>
+                                                                    <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="16"/>
+                                                                    <color key="textColor" name="888888"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="se5-pf-OCQ" customClass="rButton" customModule="DigitalCards" customModuleProvider="target">
+                                            <rect key="frame" x="243" y="32" width="84" height="36"/>
+                                            <color key="backgroundColor" name="1D1761"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="36" id="9q2-Fh-Eiw"/>
+                                                <constraint firstAttribute="width" constant="84" id="EUH-61-8Kl"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="14"/>
+                                            <color key="tintColor" name="FFFFFF"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Charge">
+                                                <color key="titleColor" name="FFFFFF"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="16" bottom="0.0" trailing="16"/>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="lek-51-51j" firstAttribute="top" secondItem="EbM-QH-9WC" secondAttribute="top" id="2UX-n9-Tqm"/>
+                                <constraint firstItem="EiX-jk-6Vh" firstAttribute="leading" secondItem="EbM-QH-9WC" secondAttribute="leading" id="2oR-GI-k8h"/>
+                                <constraint firstItem="lek-51-51j" firstAttribute="leading" secondItem="EbM-QH-9WC" secondAttribute="leading" id="A1m-1w-8Jf"/>
+                                <constraint firstItem="EiX-jk-6Vh" firstAttribute="top" secondItem="EbM-QH-9WC" secondAttribute="top" id="DJh-w6-rGh"/>
+                                <constraint firstAttribute="bottom" secondItem="EiX-jk-6Vh" secondAttribute="bottom" id="JIW-cJ-wED"/>
+                                <constraint firstAttribute="height" constant="100" id="bxC-a3-9qY"/>
+                                <constraint firstAttribute="bottom" secondItem="lek-51-51j" secondAttribute="bottom" id="e2R-AO-0dX"/>
+                                <constraint firstAttribute="trailing" secondItem="EiX-jk-6Vh" secondAttribute="trailing" id="fau-1I-Q9f"/>
+                                <constraint firstAttribute="trailing" secondItem="lek-51-51j" secondAttribute="trailing" id="sts-Xh-xG3"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="16"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sK-Pj-Wpa">
+                            <rect key="frame" x="16" y="151.33333333333334" width="343" height="17.666666666666657"/>
+                            <fontDescription key="fontDescription" name="Sora-SemiBold" family="Sora" pointSize="14"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <directionalEdgeInsets key="directionalLayoutMargins" top="24" leading="16" bottom="17" trailing="16"/>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="hnb-Jb-dSd" secondAttribute="bottom" id="1Jm-6z-86i"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hnb-Jb-dSd" secondAttribute="trailing" id="FfT-MK-EY3"/>
+                <constraint firstItem="hnb-Jb-dSd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="dFb-JL-CM8"/>
+                <constraint firstItem="hnb-Jb-dSd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tg3-7s-8QQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="125" y="-299"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_goldWallet" width="30" height="30"/>
+        <image name="ic_walletHeader" width="343" height="100"/>
+        <namedColor name="1D1761">
+            <color red="0.11372549019607843" green="0.090196078431372548" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="242333">
+            <color red="0.14117647058823529" green="0.13725490196078433" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="888888">
+            <color red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="FFFFFF">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

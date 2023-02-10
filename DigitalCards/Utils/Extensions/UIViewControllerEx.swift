@@ -21,11 +21,8 @@ extension UIViewController {
     func changeRootViewController(_ vc: UIViewController) {
         (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(vc)
     }
-}
 
-// MARK: - Transfers Shortcuts
-extension UIViewController {
-
+    // MARK: Transfers Shortcuts
     func _rootPush() {
         AppDelegate.shared?.rootNavigationController?.setViewControllers([self], animated: true)
     }
@@ -61,6 +58,20 @@ extension UIViewController {
     @IBAction func _dismissViewControllerWithoutAnimated(_ sender: Any) {
         self.dismiss(animated: false, completion: nil)
     }
+
+
+    // MARK: Custom Title BarButton
+    func barButtonItem(title: String) -> UIBarButtonItem {
+        let titleLabel = UILabel()
+        let titleBarButton = UIBarButtonItem()
+        
+        titleLabel.frame = CGRect.init(x: 0, y: 0, width: 145, height: 24)
+        titleLabel.textColor = color_FFFFFF
+        titleLabel.font = Sora_SemiBold18
+        titleLabel.text = title
+        titleBarButton.customView = titleLabel
+        return titleBarButton
+    }
 }
 
 extension UIViewController {
@@ -81,14 +92,14 @@ extension UIViewController {
 //        return UIScreen.main.bounds.width
 //    }
 //
-    var _isHideNavigation: Bool {
-        set {
-            self.navigationController?.setNavigationBarHidden(newValue, animated: true)
-        }
-        get {
-            return self.navigationController?.isNavigationBarHidden ?? false
-        }
-    }
+//    var _isHideNavigation: Bool {
+//        set {
+//            self.navigationController?.setNavigationBarHidden(newValue, animated: true)
+//        }
+//        get {
+//            return self.navigationController?.isNavigationBarHidden ?? false
+//        }
+//    }
 //
 //    func _emptyImgaeNavigation() {
 //        self.navigationController?.navigationBar.setBackgroundImage(UIImage.init(), for: .top, barMetrics: .default)
