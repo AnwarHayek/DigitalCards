@@ -88,6 +88,7 @@ extension ContactsTableViewCell: UICollectionViewDelegate, UICollectionViewDataS
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         debugPrint(#function)
         let cell: CardCollectionViewCell = collectionView._dequeueReusableCell(for: indexPath)
+        cell.index = indexPath.item
         cell.configerCell()
         return cell
     }

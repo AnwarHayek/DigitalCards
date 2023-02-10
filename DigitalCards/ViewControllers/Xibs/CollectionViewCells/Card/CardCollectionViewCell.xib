@@ -182,7 +182,7 @@
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="obu-u0-k0q" secondAttribute="trailing" id="7bL-Yv-t94"/>
                 <constraint firstItem="obu-u0-k0q" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Rih-o5-2SW"/>
@@ -219,7 +219,7 @@
     <resources>
         <image name="demo" width="1280" height="1280"/>
         <image name="ic_call" width="20" height="20"/>
-        <image name="ic_card1" width="1042" height="670"/>
+        <image name="ic_card1" width="343" height="220"/>
         <image name="ic_close" width="30" height="30"/>
         <image name="ic_global" width="20" height="20"/>
         <image name="ic_locationPoint" width="20" height="20"/>

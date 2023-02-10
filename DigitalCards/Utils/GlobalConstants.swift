@@ -10,7 +10,6 @@ import UIKit
 
 // MARK: - Fonts
 let SORA_REGULAR10 = UIFont.init(name: "Sora-Regular", size: 10) ?? SYSTEM_FONT_REGULAR20
-let Sora_SemiBold24 = UIFont.init(name: "Sora-SemiBold", size: 24)
 let Sora_SemiBold20 = UIFont.init(name: "Sora-SemiBold", size: 20)
 let Sora_SemiBold14 = UIFont.init(name: "Sora-SemiBold", size: 14)
 let Sora_SemiBold24 = UIFont.init(name: "Sora-SemiBold", size: 24) ?? SYSTEM_FONT_MEDIUM24
@@ -46,6 +45,9 @@ let ic_unSelectedData = "ic_unSelectedData"._toImage
 let ic_unSelectedFindPeople = "ic_unSelectedFindPeople"._toImage
 let ic_unSelectedNotifications = "ic_unSelectedNotifications"._toImage
 let ic_card1 = "ic_card1"._toImage
+let ic_card2 = "ic_card2"._toImage
+let ic_card3 = "ic_card3"._toImage
+let ic_card4 = "ic_card4"._toImage
 let ic_setting = "ic_setting"._toImage
 let ic_share = "ic_share"._toImage
 let ic_menu = "ic_menu"._toImage

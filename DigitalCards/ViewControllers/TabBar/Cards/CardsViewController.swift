@@ -61,6 +61,7 @@ extension CardsViewController: UICollectionViewDataSource, UICollectionViewDeleg
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell: CardCollectionViewCell = collectionView._dequeueReusableCell(for: indexPath)
+        cell.index = indexPath.item
         cell.configerCell()
         return cell
     }

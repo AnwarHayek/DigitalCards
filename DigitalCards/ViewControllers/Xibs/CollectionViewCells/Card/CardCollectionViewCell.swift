@@ -17,21 +17,26 @@ class CardCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var userWorkLabel: UILabel!
     
+    var index = 0
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        
     }
     
     func configerCell() {
-        self.backgroundImage.image = ic_card1
+        if index == 3 {
+            self.backgroundImage.image = ic_card4
+        } else if index == 2 {
+            self.backgroundImage.image = ic_card3
+        } else if index == 1 {
+            self.backgroundImage.image = ic_card2
+        }
         self.connectionsLabel.text = "2"
-        self.connectionsTitleLabel.text = "Connections"
+        self.connectionsTitleLabel.text = CONNECTION_TITLE
         self.userImage.image = demo
         self.userNameLabel.text = "User Name"
         self.userWorkLabel.text = "Youtuber"
-        
     }
     
     @IBAction func buttonAction(_ sender: Any) {

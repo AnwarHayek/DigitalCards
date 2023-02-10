@@ -13,3 +13,6 @@ let CARDS_TITLE = "Cards"._localize
 let CONTACTS_TITLE = "Contacts"._localize
 let FIND_PEOPLE_TITLE = "Find People"._localize
 let NOTIFI_TITLE = "Notifications"._localize
+
+// MARK: - Cards
+let CONNECTION_TITLE = "Connections"._localize
