@@ -73,11 +73,51 @@
                     <view key="view" contentMode="scaleToFill" id="bZN-FD-EPf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_LaunchBackground" translatesAutoresizingMaskIntoConstraints="NO" id="1R3-Xl-dKj">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="364.66666666666669"/>
+                                <color key="backgroundColor" red="0.33067094299999999" green="0.74896941459999999" blue="0.1212090207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8I3-6x-TlH">
+                                <rect key="frame" x="0.0" y="101" width="375" height="628"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="i5a-pp-vQG">
+                                        <rect key="frame" x="0.0" y="10" width="375" height="618"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="UYE-gI-mfj" id="ef0-43-tRW"/>
+                                            <outlet property="delegate" destination="UYE-gI-mfj" id="GTV-J6-9Lb"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" name="FFFFFF"/>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="10" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="q3S-hr-ErA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1R3-Xl-dKj" firstAttribute="height" secondItem="bZN-FD-EPf" secondAttribute="height" multiplier="0.5" id="32E-Sr-QbF"/>
+                            <constraint firstItem="1R3-Xl-dKj" firstAttribute="top" secondItem="bZN-FD-EPf" secondAttribute="top" id="fdG-VE-shJ"/>
+                            <constraint firstItem="1R3-Xl-dKj" firstAttribute="leading" secondItem="q3S-hr-ErA" secondAttribute="leading" id="gUP-t8-diU"/>
+                            <constraint firstItem="8I3-6x-TlH" firstAttribute="top" secondItem="q3S-hr-ErA" secondAttribute="top" constant="10" id="jgQ-mB-2By"/>
+                            <constraint firstItem="8I3-6x-TlH" firstAttribute="leading" secondItem="q3S-hr-ErA" secondAttribute="leading" id="lH7-cN-7E6"/>
+                            <constraint firstItem="q3S-hr-ErA" firstAttribute="bottom" secondItem="8I3-6x-TlH" secondAttribute="bottom" id="lRw-xo-2aa"/>
+                            <constraint firstItem="1R3-Xl-dKj" firstAttribute="trailing" secondItem="q3S-hr-ErA" secondAttribute="trailing" id="xKN-EW-alf"/>
+                            <constraint firstItem="q3S-hr-ErA" firstAttribute="trailing" secondItem="8I3-6x-TlH" secondAttribute="trailing" id="z0V-Hd-9fU"/>
+                        </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <connections>
+                        <outlet property="subStack" destination="8I3-6x-TlH" id="fGT-Kz-XKg"/>
+                        <outlet property="tableView" destination="i5a-pp-vQG" id="sRG-hL-Fzw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qkN-ba-P2c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

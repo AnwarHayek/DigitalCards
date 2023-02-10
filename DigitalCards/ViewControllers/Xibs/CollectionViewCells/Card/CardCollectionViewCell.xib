@@ -29,7 +29,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="343" height="220"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_card1" translatesAutoresizingMaskIntoConstraints="NO" id="obu-u0-k0q">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_card1" translatesAutoresizingMaskIntoConstraints="NO" id="obu-u0-k0q">
                         <rect key="frame" x="0.0" y="0.0" width="343" height="220"/>
                     </imageView>
                     <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="Xag-M6-1hx">

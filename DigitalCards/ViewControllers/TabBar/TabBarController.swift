@@ -20,7 +20,7 @@ class TabBarController: UITabBarController {
         
         titleLabel.frame = CGRect.init(x: 0, y: 0, width: 145, height: 24)
         titleLabel.textColor = color_FFFFFF
-        titleLabel.font = Sora_SemiBold18
+        titleLabel.font = Sora_SemiBold20
         titleLabel.text = tabBar.items?.first?.title
         titleBarButton.customView = titleLabel
     }

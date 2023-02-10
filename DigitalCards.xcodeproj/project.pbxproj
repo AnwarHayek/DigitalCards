@@ -39,6 +39,10 @@
 		E76B6CCB298FE4DB0017659F /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CCA298FE4DB0017659F /* Strings.swift */; };
 		E76B6CD0299014170017659F /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CCE299014170017659F /* CardCollectionViewCell.swift */; };
 		E76B6CD1299014170017659F /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E76B6CCF299014170017659F /* CardCollectionViewCell.xib */; };
+		E776B3B5299149D4000C2064 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776B3B3299149D4000C2064 /* ContactsTableViewCell.swift */; };
+		E776B3B6299149D4000C2064 /* ContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E776B3B4299149D4000C2064 /* ContactsTableViewCell.xib */; };
+		E7C40DFE299156FC000BBE26 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C40DFD299156FC000BBE26 /* UITableView.swift */; };
+		E7C40E0029915C88000BBE26 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C40DFF29915C88000BBE26 /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +81,10 @@
 		E76B6CCA298FE4DB0017659F /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		E76B6CCE299014170017659F /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		E76B6CCF299014170017659F /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
+		E776B3B3299149D4000C2064 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		E776B3B4299149D4000C2064 /* ContactsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsTableViewCell.xib; sourceTree = "<group>"; };
+		E7C40DFD299156FC000BBE26 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		E7C40DFF29915C88000BBE26 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		F9ED9E4882FD94AADA11B1D6 /* Pods-DigitalCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalCards.debug.xcconfig"; path = "Target Support Files/Pods-DigitalCards/Pods-DigitalCards.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,9 +147,9 @@
 			isa = PBXGroup;
 			children = (
 				0405BD2A298BB582007153C0 /* Xibs */,
-				E76B6CB9298FD7C10017659F /* TabBar */,
-				04DE4202298CFA4000AB0744 /* Boarding */,
 				E76B6CC8298FE02D0017659F /* MainNavigationViewController.swift */,
+				04DE4202298CFA4000AB0744 /* Boarding */,
+				E76B6CB9298FD7C10017659F /* TabBar */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -205,6 +213,7 @@
 				0409631F298D68F600B447D6 /* UIViewEx.swift */,
 				04096321298D6B1B00B447D6 /* UIKitHelpers.swift */,
 				04A9E422298EEECE00A09997 /* UIViewControllerEx.swift */,
+				E7C40DFD299156FC000BBE26 /* UITableView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -246,6 +255,7 @@
 		E76B6CB3298FCD3A0017659F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E7C40DFF29915C88000BBE26 /* Contacts.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +270,7 @@
 		E76B6CB5298FCE860017659F /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				E776B3B02991493E000C2064 /* Contacts */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -324,6 +335,15 @@
 				E76B6CCF299014170017659F /* CardCollectionViewCell.xib */,
 			);
 			path = Card;
+			sourceTree = "<group>";
+		};
+		E776B3B02991493E000C2064 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				E776B3B3299149D4000C2064 /* ContactsTableViewCell.swift */,
+				E776B3B4299149D4000C2064 /* ContactsTableViewCell.xib */,
+			);
+			path = Contacts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +412,7 @@
 				0405BD1E298BB51C007153C0 /* Assets.xcassets in Resources */,
 				0405BD1C298BB51B007153C0 /* Main.storyboard in Resources */,
 				0405BD38298BB89B007153C0 /* Sora-SemiBold.ttf in Resources */,
+				E776B3B6299149D4000C2064 /* ContactsTableViewCell.xib in Resources */,
 				E76B6CD1299014170017659F /* CardCollectionViewCell.xib in Resources */,
 				0405BD37298BB89B007153C0 /* Sora-Regular.ttf in Resources */,
 				E76B6CC7298FDF610017659F /* Third.storyboard in Resources */,
@@ -448,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E776B3B5299149D4000C2064 /* ContactsTableViewCell.swift in Sources */,
 				04096320298D68F600B447D6 /* UIViewEx.swift in Sources */,
 				0405BD3A298BBB26007153C0 /* TabBarController.swift in Sources */,
 				E76B6CCB298FE4DB0017659F /* Strings.swift in Sources */,
@@ -455,6 +477,7 @@
 				E76B6CD0299014170017659F /* CardCollectionViewCell.swift in Sources */,
 				E76B6CC9298FE02D0017659F /* MainNavigationViewController.swift in Sources */,
 				04096322298D6B1B00B447D6 /* UIKitHelpers.swift in Sources */,
+				E7C40E0029915C88000BBE26 /* Contacts.swift in Sources */,
 				0409631D298D5CDE00B447D6 /* BoardingCell.swift in Sources */,
 				E76B6CBF298FD8050017659F /* ContactsViewController.swift in Sources */,
 				0405BD15298BB51B007153C0 /* AppDelegate.swift in Sources */,
@@ -465,6 +488,7 @@
 				04096317298D3D9000B447D6 /* UICollectionViewEx.swift in Sources */,
 				E76B6CB8298FCEC80017659F /* DataViewController.swift in Sources */,
 				04DE4201298CF95500AB0744 /* GlobalConstants.swift in Sources */,
+				E7C40DFE299156FC000BBE26 /* UITableView.swift in Sources */,
 				04096319298D3DC300B447D6 /* UIResponderEx.swift in Sources */,
 				04A9E423298EEECE00A09997 /* UIViewControllerEx.swift in Sources */,
 				0405BD3D298BBBC6007153C0 /* UIColorEx.swift in Sources */,

@@ -11,7 +11,8 @@ import UIKit
 // MARK: - Fonts
 let SORA_REGULAR10 = UIFont.init(name: "Sora-Regular", size: 10) ?? SYSTEM_FONT_REGULAR20
 let Sora_SemiBold24 = UIFont.init(name: "Sora-SemiBold", size: 24)
-let Sora_SemiBold18 = UIFont.init(name: "Sora-SemiBold", size: 20)
+let Sora_SemiBold20 = UIFont.init(name: "Sora-SemiBold", size: 20)
+let Sora_SemiBold14 = UIFont.init(name: "Sora-SemiBold", size: 14)
 let SYSTEM_FONT_REGULAR20 = UIFont.systemFont(ofSize: 10, weight: .regular)
 
 // MARK: - Colors
@@ -20,6 +21,7 @@ let color_000000 = "000000"._color
 let color_green = "green"._color
 let color_888888 = "888888"._color
 let color_E3E8EF = "E3E8EF"._color
+let color_F5F8FA = "F5F8FA"._color
 
 // MARK: - Enum
 enum AppStoryboard: String {
