@@ -46,10 +46,12 @@
 		4B66D2F829924E6E00D3E484 /* Separate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66D2F729924E6E00D3E484 /* Separate.swift */; };
 		4BA650F42991714F00D34333 /* MenuHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA650F32991714F00D34333 /* MenuHeader.xib */; };
 		4BA650F62991716B00D34333 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA650F52991716B00D34333 /* MenuHeader.swift */; };
-		4BA650F8299179C300D34333 /* UITableViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA650F7299179C300D34333 /* UITableViewEx.swift */; };
 		4BA650FC29917AF500D34333 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA650FA29917AF500D34333 /* MenuCell.swift */; };
 		4BA650FD29917AF500D34333 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA650FB29917AF500D34333 /* MenuCell.xib */; };
 		4BAD00A52996682A00DF519A /* CustomCorner .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD00A42996682A00DF519A /* CustomCorner .swift */; };
+		4BC3FF282997FAF20058AF8C /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3FF272997FAF20058AF8C /* Contacts.swift */; };
+		4BC3FF2C2997FBF10058AF8C /* UITableViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3FF292997FBF00058AF8C /* UITableViewEx.swift */; };
+		4BC3FF2E2997FBF10058AF8C /* UITextFieldEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3FF2B2997FBF00058AF8C /* UITextFieldEx.swift */; };
 		4BD6680E2993E76C002627B7 /* MembershipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD6680D2993E76C002627B7 /* MembershipsViewController.swift */; };
 		4BD668112993E809002627B7 /* MembershipsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD668102993E809002627B7 /* MembershipsHeader.swift */; };
 		4BD668132993E819002627B7 /* MembershipsHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BD668122993E819002627B7 /* MembershipsHeader.xib */; };
@@ -111,10 +113,12 @@
 		4B66D2F729924E6E00D3E484 /* Separate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separate.swift; sourceTree = "<group>"; };
 		4BA650F32991714F00D34333 /* MenuHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuHeader.xib; sourceTree = "<group>"; };
 		4BA650F52991716B00D34333 /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
-		4BA650F7299179C300D34333 /* UITableViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewEx.swift; sourceTree = "<group>"; };
 		4BA650FA29917AF500D34333 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		4BA650FB29917AF500D34333 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
 		4BAD00A42996682A00DF519A /* CustomCorner .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomCorner .swift"; sourceTree = "<group>"; };
+		4BC3FF272997FAF20058AF8C /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		4BC3FF292997FBF00058AF8C /* UITableViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewEx.swift; sourceTree = "<group>"; };
+		4BC3FF2B2997FBF00058AF8C /* UITextFieldEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldEx.swift; sourceTree = "<group>"; };
 		4BD6680D2993E76C002627B7 /* MembershipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipsViewController.swift; sourceTree = "<group>"; };
 		4BD668102993E809002627B7 /* MembershipsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipsHeader.swift; sourceTree = "<group>"; };
 		4BD668122993E819002627B7 /* MembershipsHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MembershipsHeader.xib; sourceTree = "<group>"; };
@@ -267,7 +271,8 @@
 				0405BD3C298BBBC6007153C0 /* UIColorEx.swift */,
 				0405BD3E298BBBE5007153C0 /* StringEx.swift */,
 				04096316298D3D9000B447D6 /* UICollectionViewEx.swift */,
-				4BA650F7299179C300D34333 /* UITableViewEx.swift */,
+				4BC3FF292997FBF00058AF8C /* UITableViewEx.swift */,
+				4BC3FF2B2997FBF00058AF8C /* UITextFieldEx.swift */,
 				04096318298D3DC300B447D6 /* UIResponderEx.swift */,
 				0409631F298D68F600B447D6 /* UIViewEx.swift */,
 				04096321298D6B1B00B447D6 /* UIKitHelpers.swift */,
@@ -444,6 +449,7 @@
 		E76B6CB3298FCD3A0017659F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4BC3FF272997FAF20058AF8C /* Contacts.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -668,6 +674,7 @@
 				04096320298D68F600B447D6 /* UIViewEx.swift in Sources */,
 				0405BD3A298BBB26007153C0 /* TabBarController.swift in Sources */,
 				4BD6680E2993E76C002627B7 /* MembershipsViewController.swift in Sources */,
+				4BC3FF2E2997FBF10058AF8C /* UITextFieldEx.swift in Sources */,
 				E76B6CCB298FE4DB0017659F /* Strings.swift in Sources */,
 				E76B6CBC298FD7DD0017659F /* CardsViewController.swift in Sources */,
 				E76B6CD0299014170017659F /* CardCollectionViewCell.swift in Sources */,
@@ -682,7 +689,6 @@
 				4BD6681A29941967002627B7 /* PagingCollectionViewLayout.swift in Sources */,
 				0405BD3F298BBBE5007153C0 /* StringEx.swift in Sources */,
 				4BD668162993F401002627B7 /* OfferPriceCell.swift in Sources */,
-				4BA650F8299179C300D34333 /* UITableViewEx.swift in Sources */,
 				4B368BD72992CF5100A5C477 /* WalletViewController.swift in Sources */,
 				4B1464C42997B07E00361DFC /* MaximumNumberCell.swift in Sources */,
 				04DE4204298CFA8100AB0744 /* BoardingViewController.swift in Sources */,
@@ -694,6 +700,7 @@
 				E76B6CC2298FD81F0017659F /* FindPeopleViewController.swift in Sources */,
 				04096317298D3D9000B447D6 /* UICollectionViewEx.swift in Sources */,
 				4BDD77422991555A00F1A66C /* MenuViewController.swift in Sources */,
+				4BC3FF282997FAF20058AF8C /* Contacts.swift in Sources */,
 				E76B6CB8298FCEC80017659F /* DataViewController.swift in Sources */,
 				04DE4201298CF95500AB0744 /* GlobalConstants.swift in Sources */,
 				4BD668112993E809002627B7 /* MembershipsHeader.swift in Sources */,
@@ -705,6 +712,7 @@
 				0405BD3D298BBBC6007153C0 /* UIColorEx.swift in Sources */,
 				0405BD17298BB51B007153C0 /* SceneDelegate.swift in Sources */,
 				4B1464B92997A6ED00361DFC /* MembershipsSeparateHeader.swift in Sources */,
+				4BC3FF2C2997FBF10058AF8C /* UITableViewEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
