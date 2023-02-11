@@ -69,11 +69,11 @@ class CardCollectionViewCell: UICollectionViewCell {
     }
 
     @IBAction func shareAction(_ sender: Any) {
-        let vc: SocailMediaViewController = SocailMediaViewController.instantiate(appStoryboard: .Second)
-        vc.modalPresentationStyle = .custom
-        vc.modalTransitionStyle = .crossDissolve
-        vc.contact = self.contact
-        vc._presentVC()
+//        let vc: SocailMediaViewController = SocailMediaViewController.instantiate(appStoryboard: .Second)
+//        vc.modalPresentationStyle = .custom
+//        vc.modalTransitionStyle = .crossDissolve
+//        vc.contact = self.contact
+//        vc._presentVC()
     }
 
     @IBAction func moreAction(_ sender: Any) {
