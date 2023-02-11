@@ -45,15 +45,6 @@ extension MenuViewController {
         let imageView = UIImageView.init(image: "ic_MenuBackground"._toImage)
         imageView.contentMode = .scaleAspectFill
         self.tableView.backgroundView = imageView
-
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.03) {
-            let contentSize = self.tableView.contentSize.height
-            if contentSize > UIScreen.main.bounds.size.height {
-                self.tableView.isScrollEnabled = true
-            } else {
-                self.tableView.isScrollEnabled = false
-            }
-        }
     }
 
     func localized() {
@@ -87,15 +78,17 @@ extension MenuViewController {
 }
 
 extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
-    
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.section == 0 && indexPath.item == 0 {
             let vc = WalletViewController.instantiate(appStoryboard: .Third)
             vc._push()
+        } else if indexPath.section == 0 && indexPath.item == 2 {
+            let vc = MembershipsViewController.instantiate(appStoryboard: .Third)
+            vc._push()
         }
-        print(indexPath.item)
     }
-    
+
     func numberOfSections(in tableView: UITableView) -> Int {
         return 3
     }

@@ -59,7 +59,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="43" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="erC-3Y-p5g">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -68,7 +68,7 @@
                         <constraints>
                             <constraint firstItem="erC-3Y-p5g" firstAttribute="trailing" secondItem="Y4r-id-TD9" secondAttribute="trailing" id="9eK-xa-t18"/>
                             <constraint firstItem="erC-3Y-p5g" firstAttribute="top" secondItem="sdr-bq-7td" secondAttribute="top" id="A6E-2S-8wF"/>
-                            <constraint firstAttribute="bottom" secondItem="erC-3Y-p5g" secondAttribute="bottom" id="UqF-pO-2Zm"/>
+                            <constraint firstItem="Y4r-id-TD9" firstAttribute="bottom" secondItem="erC-3Y-p5g" secondAttribute="bottom" id="UqF-pO-2Zm"/>
                             <constraint firstItem="erC-3Y-p5g" firstAttribute="leading" secondItem="Y4r-id-TD9" secondAttribute="leading" id="V6f-rm-uBQ"/>
                         </constraints>
                     </view>
@@ -416,6 +416,77 @@ your wallet</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nIo-y6-vx3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2312.8000000000002" y="-38.423645320197046"/>
+        </scene>
+        <!--Memberships View Controller-->
+        <scene sceneID="kti-BH-TrC">
+            <objects>
+                <viewController storyboardIdentifier="MembershipsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="weK-Jp-fdG" customClass="MembershipsViewController" customModule="DigitalCards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5RO-oa-TIS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_LaunchBackground" translatesAutoresizingMaskIntoConstraints="NO" id="IQG-2H-4Gz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
+                                <color key="backgroundColor" red="0.33067094299999999" green="0.74896941459999999" blue="0.1212090207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="94f-h0-Hnc">
+                                <rect key="frame" x="0.0" y="101" width="375" height="711"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="48" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="2gX-4q-gYA">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                        <color key="backgroundColor" name="FFFFFF"/>
+                                    </tableView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2eK-RZ-yWN"/>
+                        <color key="backgroundColor" name="FFFFFF"/>
+                        <constraints>
+                            <constraint firstItem="94f-h0-Hnc" firstAttribute="top" secondItem="2eK-RZ-yWN" secondAttribute="top" constant="10" id="2Yz-Tr-Yuy"/>
+                            <constraint firstItem="IQG-2H-4Gz" firstAttribute="height" secondItem="5RO-oa-TIS" secondAttribute="height" multiplier="0.5" id="8Zn-zu-beW"/>
+                            <constraint firstAttribute="trailing" secondItem="IQG-2H-4Gz" secondAttribute="trailing" id="ED9-qJ-PH0"/>
+                            <constraint firstAttribute="bottom" secondItem="94f-h0-Hnc" secondAttribute="bottom" id="FTN-IH-wc6"/>
+                            <constraint firstItem="2eK-RZ-yWN" firstAttribute="trailing" secondItem="94f-h0-Hnc" secondAttribute="trailing" id="NV5-7U-T7c"/>
+                            <constraint firstItem="IQG-2H-4Gz" firstAttribute="leading" secondItem="2eK-RZ-yWN" secondAttribute="leading" id="a1u-dv-UIZ"/>
+                            <constraint firstItem="94f-h0-Hnc" firstAttribute="leading" secondItem="2eK-RZ-yWN" secondAttribute="leading" id="fEB-pW-MYe"/>
+                            <constraint firstItem="IQG-2H-4Gz" firstAttribute="top" secondItem="5RO-oa-TIS" secondAttribute="top" id="lIp-iJ-qkx"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="tableView" destination="2gX-4q-gYA" id="0nq-sf-AN6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GXn-VJ-ZZK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3015" y="-38"/>
+        </scene>
+        <!--Test View Controller-->
+        <scene sceneID="LtR-jV-8q6">
+            <objects>
+                <viewController storyboardIdentifier="TestViewController" id="Bwl-Qb-uR4" customClass="TestViewController" customModule="DigitalCards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GcO-i9-hrA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="btf-dc-Ub8">
+                                <rect key="frame" x="163" y="390.66666666666669" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yz5-uV-y50"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="btf-dc-Ub8" firstAttribute="centerX" secondItem="GcO-i9-hrA" secondAttribute="centerX" id="KoP-uj-jl1"/>
+                            <constraint firstItem="btf-dc-Ub8" firstAttribute="centerY" secondItem="GcO-i9-hrA" secondAttribute="centerY" id="akf-sw-NgP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="_switch" destination="btf-dc-Ub8" id="3vD-d0-joS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pRu-DQ-KtO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3785" y="-48"/>
         </scene>
     </scenes>
     <resources>

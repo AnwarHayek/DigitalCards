@@ -72,7 +72,7 @@ extension UIView {
             return self.layer.shadowOpacity
         }
     }
-    
+
     func _roundCorners(isTopLeft: Bool = false, isTopRight: Bool = false, isBottomLeft: Bool = false, isBottomRight: Bool = false) -> CACornerMask {
         var corners: CACornerMask = []
 

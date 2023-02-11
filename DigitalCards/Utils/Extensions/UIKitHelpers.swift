@@ -32,6 +32,13 @@ class rButton: UIButton {
 class rImage: UIImageView {
     override func layoutSubviews() {
         super.layoutSubviews()
+        self.layer.cornerRadius = self.frame.height / 2.0
+    }
+}
+
+class rSwitch: UISwitch {
+    override func layoutSubviews() {
+        super.layoutSubviews()
         self.layer.cornerRadius = self.frame.height / 2
     }
 }
