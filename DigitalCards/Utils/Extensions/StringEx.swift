@@ -14,7 +14,7 @@ extension String {
         return UIColor.init(named: self) ?? UIColor.init(hexString: self)
     }
 
-    var _colorcg: CGColor {
+    var _cglorcg: CGColor {
         return self._color.cgColor
     }
 
