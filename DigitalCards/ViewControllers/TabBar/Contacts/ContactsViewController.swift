@@ -19,7 +19,13 @@ class ContactsViewController: UIViewController {
             .init(alphabet: "S", contacts: [.init(name: "Skaik"), .init(name: "Saieb")]),
             .init(alphabet: "A", contacts: [.init(name: "Anwar"), .init(name: "ahmed"), .init(name: "AAA")]),
             .init(alphabet: "I", contacts: [.init(name: "iOS")]),
+            .init(alphabet: "Z", contacts: [.init(name: "Zoom")]),
+            .init(alphabet: "Y", contacts: [.init(name: "Yup")]),
+            .init(alphabet: "W", contacts: [.init(name: "Wow")]),
     ]
+    var isCardView = false
+//    var contactsIndexTitles: [String] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setUpView()
@@ -28,6 +34,10 @@ class ContactsViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+    }
+
+    @IBAction func filterAction(_ sender: Any) {
+        debugPrint(#function)
     }
 
 }
@@ -42,8 +52,13 @@ extension ContactsViewController {
     }
 
     private func setUpData() {
-        self.contacts = self.contacts.sorted(by: >)
-        self.contacts.insert(.init(alphabet: "Favourite", contacts: [.init(name: "Mohammed Skaik"), .init(name: "Anwar Alhayek")]), at: 0)
+        contacts = contacts.sorted(by: >)
+        contacts.insert(.init(alphabet: "Favourite", contacts: [.init(name: "Mohammed Skaik"), .init(name: "Anwar Alhayek")]), at: 0)
+//        self.contacts.forEach { contact in
+//            if let alphabet = contact.alphabet {
+//                self.contactsIndexTitles.append(alphabet)
+//            }
+//        }
     }
 
     private func setUpTableView() {
@@ -58,7 +73,7 @@ extension ContactsViewController: UITableViewDelegate, UITableViewDataSource {
 
     // MARK: - Section
     func numberOfSections(in tableView: UITableView) -> Int {
-        self.contacts.count
+        contacts.count
     }
 
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -67,7 +82,7 @@ extension ContactsViewController: UITableViewDelegate, UITableViewDataSource {
 
         let label = UILabel(frame: CGRect(x: 18, y: 0, width: view.frame.width - 18, height: 30))
         label.font = Sora_SemiBold14
-        label.text = self.contacts[section].alphabet
+        label.text = contacts[section].alphabet
         view.addSubview(label)
         return view
     }
@@ -78,28 +93,39 @@ extension ContactsViewController: UITableViewDelegate, UITableViewDataSource {
 
     // MARK: - Cell
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        self.contacts[section].contacts.count
+        contacts[section].contacts.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: ContactsTableViewCell = tableView._dequeueReusableCell()
-        cell.object = self.contacts[indexPath.section].contacts[indexPath.item]
+        cell.object = contacts[indexPath.section].contacts[indexPath.item]
         cell.configerCell()
         return cell
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if self.contacts[indexPath.section].contacts[indexPath.item].isHiddenCard {
-            return 52
+        if !contacts[indexPath.section].contacts[indexPath.item].isHiddenCard && isCardView {
+            return 310
         }
-        return 310
+        return 52
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard self.isCardView else { return }
         debugPrint(#function)
         tableView.beginUpdates()
-        self.contacts[indexPath.section].contacts[indexPath.item].isHiddenCard.toggle()
+        contacts[indexPath.section].contacts[indexPath.item].isHiddenCard.toggle()
         tableView.reloadRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
         tableView.endUpdates()
     }
+
+//    // MARK: - Indicator
+//    func sectionIndexTitles(for tableView: UITableView) -> [String]? {
+//        return self.contactsIndexTitles
+//    }
+//
+//    func tableView(_ tableView: UITableView, sectionForSectionIndexTitle title: String, at index: Int) -> Int {
+//        return self.contactsIndexTitles.firstIndex(of: title) ?? NSNotFound
+//    }
+
 }

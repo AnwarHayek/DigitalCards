@@ -16,3 +16,9 @@ let NOTIFI_TITLE = "Notifications"._localize
 
 // MARK: - Cards
 let CONNECTION_TITLE = "Connections"._localize
+
+// MARK: - FindPeople
+let RESULT_TITLE = "search result/s found"._localize
+
+// MARK: - SocailMedia
+let SOCAIL_TITLE = "Socail Media"._localize

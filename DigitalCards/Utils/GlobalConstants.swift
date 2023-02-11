@@ -54,6 +54,9 @@ let ic_menu = "ic_menu"._toImage
 let ic_exit = "ic_Exit"._toImage
 let ic_grennWallet = "ic_grennWallet"._toImage
 let ic_addPeople = "ic_addPeople"._toImage
+let ic_selectedPoint = "ic_selectedPoint"._toImage
+let ic_unselectedPoint = "ic_unselectedPoint"._toImage
+let ic_star = "ic_star"._toImage
 
 // MARK: - Demo
 let demo = "demo"._toImage

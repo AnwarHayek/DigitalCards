@@ -42,10 +42,12 @@
 		4BA650FD29917AF500D34333 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA650FB29917AF500D34333 /* MenuCell.xib */; };
 		4BDD77422991555A00F1A66C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDD77412991555A00F1A66C /* MenuViewController.swift */; };
 		4BEC42172993BA1F003936CD /* ReferFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC42162993BA1F003936CD /* ReferFriendViewController.swift */; };
+		E752373B2996DB02005DB6FC /* VerticalIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75237392996DB02005DB6FC /* VerticalIndicator.swift */; };
+		E752373C2996DB02005DB6FC /* VerticalIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = E752373A2996DB02005DB6FC /* VerticalIndicator.xib */; };
+		E752373E2996F00B005DB6FC /* UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E752373D2996F00B005DB6FC /* UIResponder.swift */; };
 		E76B6CB8298FCEC80017659F /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CB7298FCEC70017659F /* DataViewController.swift */; };
-		E76B6CBC298FD7DD0017659F /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CBB298FD7DD0017659F /* CardsViewController.swift */; };
+		E76B6CBC298FD7DD0017659F /* FindPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CBB298FD7DD0017659F /* FindPeopleViewController.swift */; };
 		E76B6CBF298FD8050017659F /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CBE298FD8050017659F /* ContactsViewController.swift */; };
-		E76B6CC2298FD81F0017659F /* FindPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CC1298FD81F0017659F /* FindPeopleViewController.swift */; };
 		E76B6CC5298FD8330017659F /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CC4298FD8330017659F /* NotificationsViewController.swift */; };
 		E76B6CC7298FDF610017659F /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76B6CC6298FDF610017659F /* Third.storyboard */; };
 		E76B6CC9298FE02D0017659F /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76B6CC8298FE02D0017659F /* MainNavigationViewController.swift */; };
@@ -56,6 +58,8 @@
 		E776B3B6299149D4000C2064 /* ContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E776B3B4299149D4000C2064 /* ContactsTableViewCell.xib */; };
 		E7C40DFE299156FC000BBE26 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C40DFD299156FC000BBE26 /* UITableView.swift */; };
 		E7C40E0029915C88000BBE26 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C40DFF29915C88000BBE26 /* Contacts.swift */; };
+		E7FFC08929970B6800DF3517 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FFC08829970B6800DF3517 /* UITextField.swift */; };
+		E7FFC08E29970EB200DF3517 /* SocailMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FFC08D29970EB200DF3517 /* SocailMediaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,10 +101,12 @@
 		4BEC42162993BA1F003936CD /* ReferFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferFriendViewController.swift; sourceTree = "<group>"; };
 		787BCA8734302B20C4FB2EE2 /* Pods_DigitalCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B79578B201ECC90ABBC0A2 /* Pods-DigitalCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalCards.release.xcconfig"; path = "Target Support Files/Pods-DigitalCards/Pods-DigitalCards.release.xcconfig"; sourceTree = "<group>"; };
+		E75237392996DB02005DB6FC /* VerticalIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalIndicator.swift; sourceTree = "<group>"; };
+		E752373A2996DB02005DB6FC /* VerticalIndicator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalIndicator.xib; sourceTree = "<group>"; };
+		E752373D2996F00B005DB6FC /* UIResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResponder.swift; sourceTree = "<group>"; };
 		E76B6CB7298FCEC70017659F /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		E76B6CBB298FD7DD0017659F /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		E76B6CBB298FD7DD0017659F /* FindPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPeopleViewController.swift; sourceTree = "<group>"; };
 		E76B6CBE298FD8050017659F /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
-		E76B6CC1298FD81F0017659F /* FindPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPeopleViewController.swift; sourceTree = "<group>"; };
 		E76B6CC4298FD8330017659F /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		E76B6CC6298FDF610017659F /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
 		E76B6CC8298FE02D0017659F /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +117,8 @@
 		E776B3B4299149D4000C2064 /* ContactsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsTableViewCell.xib; sourceTree = "<group>"; };
 		E7C40DFD299156FC000BBE26 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		E7C40DFF29915C88000BBE26 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		E7FFC08829970B6800DF3517 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		E7FFC08D29970EB200DF3517 /* SocailMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocailMediaViewController.swift; sourceTree = "<group>"; };
 		F9ED9E4882FD94AADA11B1D6 /* Pods-DigitalCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalCards.debug.xcconfig"; path = "Target Support Files/Pods-DigitalCards/Pods-DigitalCards.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +182,7 @@
 			children = (
 				0405BD2A298BB582007153C0 /* Xibs */,
 				E76B6CC8298FE02D0017659F /* MainNavigationViewController.swift */,
+				E7FFC08A29970E5C00DF3517 /* SocailMedia */,
 				E76B6CB9298FD7C10017659F /* TabBar */,
 				04DE4202298CFA4000AB0744 /* Boarding */,
 				4B368BD52992CF3400A5C477 /* Wallet */,
@@ -243,6 +252,8 @@
 				04096321298D6B1B00B447D6 /* UIKitHelpers.swift */,
 				04A9E422298EEECE00A09997 /* UIViewControllerEx.swift */,
 				E7C40DFD299156FC000BBE26 /* UITableView.swift */,
+				E7FFC08829970B6800DF3517 /* UITextField.swift */,
+				E752373D2996F00B005DB6FC /* UIResponder.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -350,6 +361,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E75237382996DAD2005DB6FC /* VerticalIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				E75237392996DB02005DB6FC /* VerticalIndicator.swift */,
+				E752373A2996DB02005DB6FC /* VerticalIndicator.xib */,
+			);
+			path = VerticalIndicator;
+			sourceTree = "<group>";
+		};
 		E76B6CB3298FCD3A0017659F /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,6 +381,7 @@
 		E76B6CB4298FCE700017659F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E75237382996DAD2005DB6FC /* VerticalIndicator */,
 				4B368BD82992D0B500A5C477 /* Wallet */,
 				4BA650F22991711200D34333 /* Menu */,
 				4B66D2EF29924C7D00D3E484 /* Separate */,
@@ -391,20 +412,19 @@
 			children = (
 				0405BD39298BBB26007153C0 /* TabBarController.swift */,
 				E76B6CC3298FD82B0017659F /* Notifications */,
-				E76B6CC0298FD80E0017659F /* FindPeople */,
 				E76B6CBD298FD7FE0017659F /* Contacts */,
-				E76B6CBA298FD7D00017659F /* Cards */,
+				E76B6CBA298FD7D00017659F /* FindPeople */,
 				E76B6CB6298FCEB60017659F /* Data */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
 		};
-		E76B6CBA298FD7D00017659F /* Cards */ = {
+		E76B6CBA298FD7D00017659F /* FindPeople */ = {
 			isa = PBXGroup;
 			children = (
-				E76B6CBB298FD7DD0017659F /* CardsViewController.swift */,
+				E76B6CBB298FD7DD0017659F /* FindPeopleViewController.swift */,
 			);
-			path = Cards;
+			path = FindPeople;
 			sourceTree = "<group>";
 		};
 		E76B6CBD298FD7FE0017659F /* Contacts */ = {
@@ -413,14 +433,6 @@
 				E76B6CBE298FD8050017659F /* ContactsViewController.swift */,
 			);
 			path = Contacts;
-			sourceTree = "<group>";
-		};
-		E76B6CC0298FD80E0017659F /* FindPeople */ = {
-			isa = PBXGroup;
-			children = (
-				E76B6CC1298FD81F0017659F /* FindPeopleViewController.swift */,
-			);
-			path = FindPeople;
 			sourceTree = "<group>";
 		};
 		E76B6CC3298FD82B0017659F /* Notifications */ = {
@@ -447,6 +459,14 @@
 				E776B3B4299149D4000C2064 /* ContactsTableViewCell.xib */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		E7FFC08A29970E5C00DF3517 /* SocailMedia */ = {
+			isa = PBXGroup;
+			children = (
+				E7FFC08D29970EB200DF3517 /* SocailMediaViewController.swift */,
+			);
+			path = SocailMedia;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -521,6 +541,7 @@
 				4BA650F42991714F00D34333 /* MenuHeader.xib in Resources */,
 				4B368BDC2992D0F300A5C477 /* WalletHeader.xib in Resources */,
 				E76B6CD1299014170017659F /* CardCollectionViewCell.xib in Resources */,
+				E752373C2996DB02005DB6FC /* VerticalIndicator.xib in Resources */,
 				0405BD37298BB89B007153C0 /* Sora-Regular.ttf in Resources */,
 				E76B6CC7298FDF610017659F /* Third.storyboard in Resources */,
 				4B368BE12992D6A100A5C477 /* WalletCell.xib in Resources */,
@@ -581,15 +602,19 @@
 				04096320298D68F600B447D6 /* UIViewEx.swift in Sources */,
 				0405BD3A298BBB26007153C0 /* TabBarController.swift in Sources */,
 				E76B6CCB298FE4DB0017659F /* Strings.swift in Sources */,
-				E76B6CBC298FD7DD0017659F /* CardsViewController.swift in Sources */,
+				E76B6CBC298FD7DD0017659F /* FindPeopleViewController.swift in Sources */,
 				E76B6CD0299014170017659F /* CardCollectionViewCell.swift in Sources */,
 				4BA650F62991716B00D34333 /* MenuHeader.swift in Sources */,
 				4B66D2F829924E6E00D3E484 /* Separate.swift in Sources */,
 				4B368BDA2992D0EA00A5C477 /* WalletHeader.swift in Sources */,
 				E76B6CC9298FE02D0017659F /* MainNavigationViewController.swift in Sources */,
+				E7FFC08E29970EB200DF3517 /* SocailMediaViewController.swift in Sources */,
 				04096322298D6B1B00B447D6 /* UIKitHelpers.swift in Sources */,
 				E7C40E0029915C88000BBE26 /* Contacts.swift in Sources */,
+				E752373B2996DB02005DB6FC /* VerticalIndicator.swift in Sources */,
 				0409631D298D5CDE00B447D6 /* BoardingCell.swift in Sources */,
+				E752373E2996F00B005DB6FC /* UIResponder.swift in Sources */,
+				E7FFC08929970B6800DF3517 /* UITextField.swift in Sources */,
 				E76B6CBF298FD8050017659F /* ContactsViewController.swift in Sources */,
 				0405BD15298BB51B007153C0 /* AppDelegate.swift in Sources */,
 				0405BD3F298BBBE5007153C0 /* StringEx.swift in Sources */,
@@ -598,7 +623,6 @@
 				4BEC42172993BA1F003936CD /* ReferFriendViewController.swift in Sources */,
 				E76B6CC5298FD8330017659F /* NotificationsViewController.swift in Sources */,
 				4B368BE02992D6A100A5C477 /* WalletCell.swift in Sources */,
-				E76B6CC2298FD81F0017659F /* FindPeopleViewController.swift in Sources */,
 				04096317298D3D9000B447D6 /* UICollectionViewEx.swift in Sources */,
 				4BDD77422991555A00F1A66C /* MenuViewController.swift in Sources */,
 				E76B6CB8298FCEC80017659F /* DataViewController.swift in Sources */,
