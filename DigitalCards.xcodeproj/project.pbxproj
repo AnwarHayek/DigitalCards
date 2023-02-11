@@ -44,7 +44,6 @@
 		4B4FCE0429980A76006308C9 /* SocailMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FCE0329980A76006308C9 /* SocailMediaViewController.swift */; };
 		4B4FCE0829980AD9006308C9 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FCE0629980AD9006308C9 /* ContactsTableViewCell.swift */; };
 		4B4FCE0929980AD9006308C9 /* ContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FCE0729980AD9006308C9 /* ContactsTableViewCell.xib */; };
-		4B4FCE0C2998113B006308C9 /* SocailMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FCE0B2998113B006308C9 /* SocailMediaViewController.swift */; };
 		4B66D2F629924E5E00D3E484 /* Separate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B66D2F529924E5E00D3E484 /* Separate.xib */; };
 		4B66D2F829924E6E00D3E484 /* Separate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66D2F729924E6E00D3E484 /* Separate.swift */; };
 		4BA650F42991714F00D34333 /* MenuHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA650F32991714F00D34333 /* MenuHeader.xib */; };
@@ -113,7 +112,6 @@
 		4B4FCE0329980A76006308C9 /* SocailMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocailMediaViewController.swift; sourceTree = "<group>"; };
 		4B4FCE0629980AD9006308C9 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
 		4B4FCE0729980AD9006308C9 /* ContactsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsTableViewCell.xib; sourceTree = "<group>"; };
-		4B4FCE0B2998113B006308C9 /* SocailMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocailMediaViewController.swift; sourceTree = "<group>"; };
 		4B66D2F529924E5E00D3E484 /* Separate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Separate.xib; sourceTree = "<group>"; };
 		4B66D2F729924E6E00D3E484 /* Separate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separate.swift; sourceTree = "<group>"; };
 		4BA650F32991714F00D34333 /* MenuHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuHeader.xib; sourceTree = "<group>"; };
@@ -204,9 +202,9 @@
 		0405BD29298BB57C007153C0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4B4FCE0229980A58006308C9 /* SocailMedia */,
 				0405BD2A298BB582007153C0 /* Xibs */,
 				E76B6CC8298FE02D0017659F /* MainNavigationViewController.swift */,
+				4B4FCE0229980A58006308C9 /* SocailMedia */,
 				E76B6CB9298FD7C10017659F /* TabBar */,
 				04DE4202298CFA4000AB0744 /* Boarding */,
 				4B368BD52992CF3400A5C477 /* Wallet */,
@@ -381,14 +379,6 @@
 			path = Contacts;
 			sourceTree = "<group>";
 		};
-		4B4FCE0A29981124006308C9 /* SocailMedia */ = {
-			isa = PBXGroup;
-			children = (
-				4B4FCE0B2998113B006308C9 /* SocailMediaViewController.swift */,
-			);
-			path = SocailMedia;
-			sourceTree = "<group>";
-		};
 		4B66D2EF29924C7D00D3E484 /* Separate */ = {
 			isa = PBXGroup;
 			children = (
@@ -519,7 +509,6 @@
 			isa = PBXGroup;
 			children = (
 				0405BD39298BBB26007153C0 /* TabBarController.swift */,
-				4B4FCE0A29981124006308C9 /* SocailMedia */,
 				E76B6CC3298FD82B0017659F /* Notifications */,
 				E76B6CC0298FD80E0017659F /* FindPeople */,
 				E76B6CBD298FD7FE0017659F /* Contacts */,
@@ -720,7 +709,6 @@
 				4B1464C92997CF7500361DFC /* UISwitchEx.swift in Sources */,
 				4B368BE02992D6A100A5C477 /* WalletCell.swift in Sources */,
 				E76B6CC2298FD81F0017659F /* FindPeopleViewController.swift in Sources */,
-				4B4FCE0C2998113B006308C9 /* SocailMediaViewController.swift in Sources */,
 				4B4FCE0829980AD9006308C9 /* ContactsTableViewCell.swift in Sources */,
 				04096317298D3D9000B447D6 /* UICollectionViewEx.swift in Sources */,
 				4BDD77422991555A00F1A66C /* MenuViewController.swift in Sources */,
