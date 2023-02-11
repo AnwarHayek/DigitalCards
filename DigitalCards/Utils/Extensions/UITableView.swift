@@ -1,11 +1,10 @@
 //
-//  UITableViewEx.swift
+//  UITableView.swift
 //  DigitalCards
 //
-//  Created by Anwar Alhayek on 06/02/2023.
+//  Created by Mohammed Skaik on 06/02/2023.
 //
 
-import Foundation
 import UIKit
 
 extension UITableView {
@@ -20,7 +19,7 @@ extension UITableView {
             return UITableViewCell.self
         }
     }
-
+    
     /// Register Header And Footer
     var _registerHeaderAndFooter: UITableViewHeaderFooterView.Type {
         set {
@@ -39,7 +38,7 @@ extension UITableView {
         }
         return cell
     }
-
+    
     // Dequeue Header And Footer
     func _dequeueReusableHeaderFooterView<T: UITableViewHeaderFooterView>(withClass name: T.Type = T.self) -> T {
         guard let headerFooterView = dequeueReusableHeaderFooterView(withIdentifier: String(describing: name)) as? T else {

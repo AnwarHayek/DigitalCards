@@ -20,7 +20,7 @@ class TabBarController: UITabBarController {
         
         titleLabel.frame = CGRect.init(x: 0, y: 0, width: 145, height: 24)
         titleLabel.textColor = color_FFFFFF
-        titleLabel.font = Sora_SemiBold18
+        titleLabel.font = Sora_SemiBold20
         titleLabel.text = tabBar.items?.first?.title
         titleBarButton.customView = titleLabel
     }
@@ -50,9 +50,11 @@ class TabBarController: UITabBarController {
     private func setUpViews() {
         let vc1: DataViewController = DataViewController.instantiate(appStoryboard: .Third)
         vc1.tabBarItem = UITabBarItem(title: DATA_TITLE, image: ic_unSelectedData, selectedImage: ic_selectedData)
-        let vc2: CardsViewController = CardsViewController.instantiate(appStoryboard: .Second)
+        let vc2: ContactsViewController = ContactsViewController.instantiate(appStoryboard: .Second)
+        vc2.isCardView = true
         vc2.tabBarItem = UITabBarItem(title: CARDS_TITLE, image: ic_unSelectedCards, selectedImage: ic_selectedCards)
         let vc3: ContactsViewController = ContactsViewController.instantiate(appStoryboard: .Second)
+        vc3.isCardView = false
         vc3.tabBarItem = UITabBarItem(title: CONTACTS_TITLE, image: ic_unSelectedContacts, selectedImage: ic_selectedContacts)
         let vc4: FindPeopleViewController = FindPeopleViewController.instantiate(appStoryboard: .Second)
         vc4.tabBarItem = UITabBarItem(title: FIND_PEOPLE_TITLE, image: ic_unSelectedFindPeople, selectedImage: ic_SelectedFindPeople)
