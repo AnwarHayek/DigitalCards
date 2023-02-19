@@ -57,6 +57,8 @@ let ic_addPeople = "ic_addPeople"._toImage
 let ic_selectedPoint = "ic_selectedPoint"._toImage
 let ic_unselectedPoint = "ic_unselectedPoint"._toImage
 let ic_star = "ic_star"._toImage
+let ic_search = "ic_search"._toImage
+
 
 // MARK: - Demo
 let demo = "demo"._toImage

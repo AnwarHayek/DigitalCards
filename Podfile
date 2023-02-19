@@ -8,5 +8,6 @@ target 'DigitalCards' do
   # Pods for DigitalCards
     pod 'JXPageControl'
     pod 'GravitySliderFlowLayout'
-    
+    pod 'PieCharts'
+    pod 'SwiftCharts', '~> 0.6.5'
 end

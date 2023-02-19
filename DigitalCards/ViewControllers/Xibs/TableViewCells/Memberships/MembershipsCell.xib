@@ -6,7 +6,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -33,7 +32,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="dBR-OH-RmJ" firstAttribute="centerX" secondItem="dEC-Om-Rb0" secondAttribute="centerX" id="Xsv-tL-wkf"/>
                                     <constraint firstItem="dBR-OH-RmJ" firstAttribute="centerY" secondItem="dEC-Om-Rb0" secondAttribute="centerY" id="s4m-JS-2kU"/>
@@ -50,7 +49,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="nYq-be-3gl" firstAttribute="centerX" secondItem="0Nc-cA-mX6" secondAttribute="centerX" id="6Qm-1J-4eO"/>
                                     <constraint firstItem="nYq-be-3gl" firstAttribute="centerY" secondItem="0Nc-cA-mX6" secondAttribute="centerY" id="T15-mu-Jr5"/>
@@ -77,7 +76,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="efj-J6-HSL" firstAttribute="centerY" secondItem="D7m-O0-TJd" secondAttribute="centerY" id="QGh-nR-Bvh"/>
                                     <constraint firstItem="efj-J6-HSL" firstAttribute="centerX" secondItem="D7m-O0-TJd" secondAttribute="centerX" id="YPe-aN-S53"/>
@@ -103,14 +102,14 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="qJo-V1-55k" firstAttribute="centerX" secondItem="KGj-E5-01M" secondAttribute="centerX" id="4iw-OO-JlS"/>
                                     <constraint firstItem="qJo-V1-55k" firstAttribute="centerY" secondItem="KGj-E5-01M" secondAttribute="centerY" id="uUL-QN-8Lk"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.96078431372549022" green="0.97254901960784312" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="F5F8FA"/>
                     </stackView>
                 </subviews>
                 <constraints>
@@ -121,6 +120,9 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="myStack" destination="wZe-6l-19x" id="lWw-mE-cQB"/>
+            </connections>
             <point key="canvasLocation" x="-322.46376811594206" y="8.0357142857142847"/>
         </tableViewCell>
     </objects>
@@ -130,8 +132,8 @@
         <namedColor name="E3E8EF">
             <color red="0.8901960784313725" green="0.90980392156862744" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <namedColor name="F5F8FA">
+            <color red="0.96078431372549022" green="0.97254901960784312" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

@@ -50,8 +50,10 @@ class BoardingViewController: UIViewController {
     }
 
     @IBAction func btnSkip(_ sender: Any) {
-        let vc = TabBarController()
-        vc._rootPush()
+//        let vc = TabBarController()
+//        vc._rootPush()
+        let vc = DashboardViewController.instantiate(appStoryboard: .Third)
+        vc._push()
     }
 }
 

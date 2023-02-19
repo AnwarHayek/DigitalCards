@@ -9,20 +9,28 @@ PODS:
     - JXPageControl/Common
   - JXPageControl/Transform (0.1.5):
     - JXPageControl/Common
+  - PieCharts (0.0.7)
+  - SwiftCharts (0.6.5)
 
 DEPENDENCIES:
   - GravitySliderFlowLayout
   - JXPageControl
+  - PieCharts
+  - SwiftCharts (~> 0.6.5)
 
 SPEC REPOS:
   trunk:
     - GravitySliderFlowLayout
     - JXPageControl
+    - PieCharts
+    - SwiftCharts
 
 SPEC CHECKSUMS:
   GravitySliderFlowLayout: bb9ae6a302b85821c9e0271c00533fae8091143b
   JXPageControl: e9487b39e2e58fc17790833214f3b8e935bef98b
+  PieCharts: 30e50dfa7dc19e5b84e9878d32089673ef5d0453
+  SwiftCharts: 2e755ea292f0b87d3e4b2c1eb5afc080a20cdc15
 
-PODFILE CHECKSUM: af3d5fda1afd337f840c5c45d2c14179697a8d6d
+PODFILE CHECKSUM: 606ce5e69281689289d8462b493e4b4058812fe4
 
 COCOAPODS: 1.11.3
