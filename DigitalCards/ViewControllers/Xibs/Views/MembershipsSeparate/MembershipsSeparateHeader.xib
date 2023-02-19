@@ -30,7 +30,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <color key="backgroundColor" red="0.93333333333333335" green="0.94901960784313721" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" name="EEF2F8"/>
                     <constraints>
                         <constraint firstItem="vTW-7U-GKU" firstAttribute="centerY" secondItem="PPb-kM-b7U" secondAttribute="centerY" id="cZQ-T9-ZKp"/>
                         <constraint firstItem="vTW-7U-GKU" firstAttribute="centerX" secondItem="PPb-kM-b7U" secondAttribute="centerX" id="xHh-c4-efk"/>
@@ -55,6 +55,9 @@
     <resources>
         <namedColor name="666666">
             <color red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="EEF2F8">
+            <color red="0.93333333333333335" green="0.94901960784313721" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

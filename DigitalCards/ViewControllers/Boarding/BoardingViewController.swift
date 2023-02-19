@@ -52,7 +52,7 @@ class BoardingViewController: UIViewController {
     @IBAction func btnSkip(_ sender: Any) {
 //        let vc = TabBarController()
 //        vc._rootPush()
-        let vc = MembershipsViewController.instantiate(appStoryboard: .Third)
+        let vc = DashboardViewController.instantiate(appStoryboard: .Third)
         vc._push()
     }
 }

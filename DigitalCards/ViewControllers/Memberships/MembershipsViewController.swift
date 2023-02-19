@@ -74,7 +74,7 @@ extension MembershipsViewController {
 extension MembershipsViewController: UITableViewDelegate, UITableViewDataSource {
 
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 4
+        return 5
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -84,6 +84,7 @@ extension MembershipsViewController: UITableViewDelegate, UITableViewDataSource 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell1: MaximumNumberCell = tableView._dequeueReusableCell()
         let cell2: MembershipsCell = tableView._dequeueReusableCell()
+        cell2.section = indexPath.section
         cell1.configerCell()
         cell2.configerCell()
         return indexPath.section == 1 ? cell1 : cell2

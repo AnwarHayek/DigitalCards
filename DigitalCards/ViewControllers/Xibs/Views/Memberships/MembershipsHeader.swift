@@ -13,7 +13,7 @@ class MembershipsHeader: UITableViewHeaderFooterView {
 
     @IBOutlet weak var collectionView: UICollectionView!
 
-    @IBOutlet weak var _view: UIView!
+    @IBOutlet weak var myView: UIView!
 
     @IBOutlet weak var mySwitch: UISwitch!
 
@@ -33,6 +33,8 @@ class MembershipsHeader: UITableViewHeaderFooterView {
         self.collectionView.dataSource = self
         self.pageControl.numberOfPages = 4
         self.collectionViewlayout()
+        self.myView.layer.maskedCorners = self.myView._roundCorners(isTopLeft: true, isTopRight: true)
+        self.myView.cornerRadius = 16
     }
 
     @IBAction func mySwitch(_ sender: Any) {
