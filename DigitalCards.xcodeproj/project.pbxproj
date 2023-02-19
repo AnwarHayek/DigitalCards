@@ -46,8 +46,6 @@
 		4B4FCE0929980AD9006308C9 /* ContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FCE0729980AD9006308C9 /* ContactsTableViewCell.xib */; };
 		4B66D2F629924E5E00D3E484 /* Separate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B66D2F529924E5E00D3E484 /* Separate.xib */; };
 		4B66D2F829924E6E00D3E484 /* Separate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66D2F729924E6E00D3E484 /* Separate.swift */; };
-		4B77AB28299DB29600870E84 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B77AB26299DB29600870E84 /* Chart.swift */; };
-		4B77AB29299DB29600870E84 /* Chart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B77AB27299DB29600870E84 /* Chart.xib */; };
 		4BA650F42991714F00D34333 /* MenuHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA650F32991714F00D34333 /* MenuHeader.xib */; };
 		4BA650F62991716B00D34333 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA650F52991716B00D34333 /* MenuHeader.swift */; };
 		4BA650FC29917AF500D34333 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA650FA29917AF500D34333 /* MenuCell.swift */; };
@@ -56,7 +54,6 @@
 		4BC3FF282997FAF20058AF8C /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3FF272997FAF20058AF8C /* Contacts.swift */; };
 		4BC3FF2C2997FBF10058AF8C /* UITableViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3FF292997FBF00058AF8C /* UITableViewEx.swift */; };
 		4BC3FF2E2997FBF10058AF8C /* UITextFieldEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC3FF2B2997FBF00058AF8C /* UITextFieldEx.swift */; };
-		4BC75277299CDED600BF35BA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC75276299CDED600BF35BA /* DashboardViewController.swift */; };
 		4BD6680E2993E76C002627B7 /* MembershipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD6680D2993E76C002627B7 /* MembershipsViewController.swift */; };
 		4BD668112993E809002627B7 /* MembershipsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD668102993E809002627B7 /* MembershipsHeader.swift */; };
 		4BD668132993E819002627B7 /* MembershipsHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BD668122993E819002627B7 /* MembershipsHeader.xib */; };
@@ -117,8 +114,6 @@
 		4B4FCE0729980AD9006308C9 /* ContactsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsTableViewCell.xib; sourceTree = "<group>"; };
 		4B66D2F529924E5E00D3E484 /* Separate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Separate.xib; sourceTree = "<group>"; };
 		4B66D2F729924E6E00D3E484 /* Separate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separate.swift; sourceTree = "<group>"; };
-		4B77AB26299DB29600870E84 /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
-		4B77AB27299DB29600870E84 /* Chart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Chart.xib; sourceTree = "<group>"; };
 		4BA650F32991714F00D34333 /* MenuHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuHeader.xib; sourceTree = "<group>"; };
 		4BA650F52991716B00D34333 /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
 		4BA650FA29917AF500D34333 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
@@ -127,7 +122,6 @@
 		4BC3FF272997FAF20058AF8C /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		4BC3FF292997FBF00058AF8C /* UITableViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewEx.swift; sourceTree = "<group>"; };
 		4BC3FF2B2997FBF00058AF8C /* UITextFieldEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldEx.swift; sourceTree = "<group>"; };
-		4BC75276299CDED600BF35BA /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		4BD6680D2993E76C002627B7 /* MembershipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipsViewController.swift; sourceTree = "<group>"; };
 		4BD668102993E809002627B7 /* MembershipsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipsHeader.swift; sourceTree = "<group>"; };
 		4BD668122993E819002627B7 /* MembershipsHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MembershipsHeader.xib; sourceTree = "<group>"; };
@@ -165,7 +159,6 @@
 		0405BD08298BB51B007153C0 = {
 			isa = PBXGroup;
 			children = (
-				0405BD16298BB51B007153C0 /* SceneDelegate.swift */,
 				0405BD13298BB51B007153C0 /* DigitalCards */,
 				0405BD12298BB51B007153C0 /* Products */,
 				A56590FC62477FBEE94849EC /* Pods */,
@@ -185,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				0405BD14298BB51B007153C0 /* AppDelegate.swift */,
+				0405BD16298BB51B007153C0 /* SceneDelegate.swift */,
 				0405BD29298BB57C007153C0 /* ViewControllers */,
 				E76B6CB3298FCD3A0017659F /* Models */,
 				0405BD2E298BB5D0007153C0 /* Utils */,
@@ -210,7 +204,7 @@
 			children = (
 				0405BD2A298BB582007153C0 /* Xibs */,
 				E76B6CC8298FE02D0017659F /* MainNavigationViewController.swift */,
-				4BC75275299CDEC700BF35BA /* Dashboard */,
+				4B4FCE0229980A58006308C9 /* SocailMedia */,
 				E76B6CB9298FD7C10017659F /* TabBar */,
 				04DE4202298CFA4000AB0744 /* Boarding */,
 				4B368BD52992CF3400A5C477 /* Wallet */,
@@ -368,6 +362,14 @@
 			path = Wallet;
 			sourceTree = "<group>";
 		};
+		4B4FCE0229980A58006308C9 /* SocailMedia */ = {
+			isa = PBXGroup;
+			children = (
+				4B4FCE0329980A76006308C9 /* SocailMediaViewController.swift */,
+			);
+			path = SocailMedia;
+			sourceTree = "<group>";
+		};
 		4B4FCE0529980AC4006308C9 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,14 +379,6 @@
 			path = Contacts;
 			sourceTree = "<group>";
 		};
-		4B4FCE0A29981124006308C9 /* SocailMedia */ = {
-			isa = PBXGroup;
-			children = (
-				4B4FCE0329980A76006308C9 /* SocailMediaViewController.swift */,
-			);
-			path = SocailMedia;
-			sourceTree = "<group>";
-		};
 		4B66D2EF29924C7D00D3E484 /* Separate */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,15 +386,6 @@
 				4B66D2F729924E6E00D3E484 /* Separate.swift */,
 			);
 			path = Separate;
-			sourceTree = "<group>";
-		};
-		4B77AB25299DB28000870E84 /* Chart */ = {
-			isa = PBXGroup;
-			children = (
-				4B77AB26299DB29600870E84 /* Chart.swift */,
-				4B77AB27299DB29600870E84 /* Chart.xib */,
-			);
-			path = Chart;
 			sourceTree = "<group>";
 		};
 		4BA650F22991711200D34333 /* Menu */ = {
@@ -427,14 +412,6 @@
 				4BAD00A42996682A00DF519A /* CustomCorner .swift */,
 			);
 			path = Libs;
-			sourceTree = "<group>";
-		};
-		4BC75275299CDEC700BF35BA /* Dashboard */ = {
-			isa = PBXGroup;
-			children = (
-				4BC75276299CDED600BF35BA /* DashboardViewController.swift */,
-			);
-			path = Dashboard;
 			sourceTree = "<group>";
 		};
 		4BD6680C2993E70F002627B7 /* Memberships */ = {
@@ -499,7 +476,6 @@
 		E76B6CB4298FCE700017659F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4B77AB25299DB28000870E84 /* Chart */,
 				4B1464B72997A69600361DFC /* MembershipsSeparate */,
 				4BD6680F2993E7CA002627B7 /* Memberships */,
 				4B368BD82992D0B500A5C477 /* Wallet */,
@@ -533,7 +509,6 @@
 			isa = PBXGroup;
 			children = (
 				0405BD39298BBB26007153C0 /* TabBarController.swift */,
-				4B4FCE0A29981124006308C9 /* SocailMedia */,
 				E76B6CC3298FD82B0017659F /* Notifications */,
 				E76B6CC0298FD80E0017659F /* FindPeople */,
 				E76B6CBD298FD7FE0017659F /* Contacts */,
@@ -655,7 +630,6 @@
 				4B368BE12992D6A100A5C477 /* WalletCell.xib in Resources */,
 				4B1464BB2997A6F300361DFC /* MembershipsSeparateHeader.xib in Resources */,
 				4BD668132993E819002627B7 /* MembershipsHeader.xib in Resources */,
-				4B77AB29299DB29600870E84 /* Chart.xib in Resources */,
 				0409631E298D5CDE00B447D6 /* BoardingCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -717,7 +691,6 @@
 				E76B6CD0299014170017659F /* CardCollectionViewCell.swift in Sources */,
 				4BA650F62991716B00D34333 /* MenuHeader.swift in Sources */,
 				4B66D2F829924E6E00D3E484 /* Separate.swift in Sources */,
-				4BC75277299CDED600BF35BA /* DashboardViewController.swift in Sources */,
 				4B368BDA2992D0EA00A5C477 /* WalletHeader.swift in Sources */,
 				E76B6CC9298FE02D0017659F /* MainNavigationViewController.swift in Sources */,
 				04096322298D6B1B00B447D6 /* UIKitHelpers.swift in Sources */,
@@ -745,7 +718,6 @@
 				4BD668112993E809002627B7 /* MembershipsHeader.swift in Sources */,
 				04096319298D3DC300B447D6 /* UIResponderEx.swift in Sources */,
 				4BA650FC29917AF500D34333 /* MenuCell.swift in Sources */,
-				4B77AB28299DB29600870E84 /* Chart.swift in Sources */,
 				4BAD00A52996682A00DF519A /* CustomCorner .swift in Sources */,
 				04A9E423298EEECE00A09997 /* UIViewControllerEx.swift in Sources */,
 				0405BD3D298BBBC6007153C0 /* UIColorEx.swift in Sources */,
