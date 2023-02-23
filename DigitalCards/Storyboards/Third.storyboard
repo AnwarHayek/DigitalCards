@@ -460,7 +460,7 @@ your wallet</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXn-VJ-ZZK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3015" y="-38"/>
+            <point key="canvasLocation" x="3055" y="-38"/>
         </scene>
         <!--Dashboard View Controller-->
         <scene sceneID="sQQ-dn-Qdg">
@@ -732,12 +732,6 @@ Profile</string>
                             <constraint firstItem="TmI-ey-49W" firstAttribute="leading" secondItem="leO-WB-MlF" secondAttribute="leading" id="kxk-Nk-gHG"/>
                             <constraint firstItem="Eqb-Fn-vnm" firstAttribute="top" secondItem="leO-WB-MlF" secondAttribute="top" id="vFL-Jw-96z"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="Eqb-Fn-vnm"/>
-                                <exclude reference="TmI-ey-49W"/>
-                            </mask>
-                        </variation>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <size key="freeformSize" width="375" height="1994"/>
@@ -751,10 +745,163 @@ Profile</string>
             </objects>
             <point key="canvasLocation" x="3768.8000000000002" y="397.53694581280791"/>
         </scene>
+        <!--Share View Controller-->
+        <scene sceneID="LxG-pD-LLY">
+            <objects>
+                <viewController storyboardIdentifier="ShareViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LKe-gW-INf" customClass="ShareViewController" customModule="DigitalCards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O4g-DD-UaM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_LaunchBackground" translatesAutoresizingMaskIntoConstraints="NO" id="NRR-qt-4Tc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
+                                <color key="backgroundColor" red="0.33067094299999999" green="0.74896941459999999" blue="0.1212090207" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hau-0w-mwB">
+                                <rect key="frame" x="0.0" y="101" width="375" height="711"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uJe-CV-gwX">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="357.33333333333331"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_swipeUp" translatesAutoresizingMaskIntoConstraints="NO" id="Kmc-8B-o1h">
+                                                <rect key="frame" x="245" y="327.33333333333331" width="107" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="JoS-bu-7ti"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_swipeDown" translatesAutoresizingMaskIntoConstraints="NO" id="Kq7-hF-yuW">
+                                                <rect key="frame" x="23" y="357.33333333333331" width="107" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="wv2-iY-P0z"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="F5F8FA"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="Kmc-8B-o1h" secondAttribute="bottom" id="ZTk-3K-aac"/>
+                                            <constraint firstItem="Kq7-hF-yuW" firstAttribute="leading" secondItem="uJe-CV-gwX" secondAttribute="leading" constant="23" id="dST-63-FTB"/>
+                                            <constraint firstAttribute="bottom" secondItem="Kq7-hF-yuW" secondAttribute="bottom" constant="-30" id="tdg-lt-OrA"/>
+                                            <constraint firstAttribute="trailing" secondItem="Kmc-8B-o1h" secondAttribute="trailing" constant="23" id="tiL-dw-UNE"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="F4n-1f-3lN">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="711"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="E1n-9Z-EUE">
+                                                <rect key="frame" x="0.0" y="120.33333333333334" width="375" height="470.66666666666663"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="95G-lF-1nJ">
+                                                        <rect key="frame" x="133.33333333333334" y="0.0" width="108.33333333333334" height="147.33333333333334"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_QRScanner" translatesAutoresizingMaskIntoConstraints="NO" id="c1Q-IQ-EOl">
+                                                                <rect key="frame" x="19.333333333333314" y="0.0" width="70" height="70"/>
+                                                            </imageView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="hjr-RX-R7b">
+                                                                <rect key="frame" x="0.0" y="96.999999999999972" width="108.33333333333333" height="50.333333333333343"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QR Scanner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOM-yv-esj">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="108.33333333333333" height="23"/>
+                                                                        <fontDescription key="fontDescription" name="Sora-SemiBold" family="Sora" pointSize="18"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe Down" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCj-7C-SCC">
+                                                                        <rect key="frame" x="16.333333333333314" y="35" width="76" height="15.333333333333336"/>
+                                                                        <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="12"/>
+                                                                        <color key="textColor" name="888888"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_NFC" translatesAutoresizingMaskIntoConstraints="NO" id="078-be-2Lj">
+                                                        <rect key="frame" x="139.66666666666666" y="187.33333333333334" width="96" height="96.000000000000028"/>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="s1q-Kh-ZzC">
+                                                        <rect key="frame" x="146" y="323.33333333333326" width="83" height="147.33333333333337"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_QRCode" translatesAutoresizingMaskIntoConstraints="NO" id="3MD-ex-TSY">
+                                                                <rect key="frame" x="6.6666666666666572" y="0.0" width="70" height="70"/>
+                                                            </imageView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Nay-Gf-Gb7">
+                                                                <rect key="frame" x="0.0" y="97" width="83" height="50.333333333333343"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QR Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbW-rt-34o">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="83" height="23"/>
+                                                                        <fontDescription key="fontDescription" name="Sora-SemiBold" family="Sora" pointSize="18"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="il8-pZ-pai">
+                                                                        <rect key="frame" x="12.333333333333346" y="35" width="58.333333333333343" height="15.333333333333336"/>
+                                                                        <fontDescription key="fontDescription" name="Sora-Regular" family="Sora" pointSize="12"/>
+                                                                        <color key="textColor" name="888888"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="F4n-1f-3lN" secondAttribute="bottom" id="CAt-Gt-euz"/>
+                                    <constraint firstAttribute="trailing" secondItem="F4n-1f-3lN" secondAttribute="trailing" id="J6T-CL-wgx"/>
+                                    <constraint firstItem="uJe-CV-gwX" firstAttribute="top" secondItem="hau-0w-mwB" secondAttribute="top" id="SDv-v7-3dH"/>
+                                    <constraint firstItem="uJe-CV-gwX" firstAttribute="leading" secondItem="hau-0w-mwB" secondAttribute="leading" id="dsI-5c-E6R"/>
+                                    <constraint firstAttribute="trailing" secondItem="uJe-CV-gwX" secondAttribute="trailing" id="moy-my-e6o"/>
+                                    <constraint firstItem="F4n-1f-3lN" firstAttribute="leading" secondItem="hau-0w-mwB" secondAttribute="leading" id="um2-Gs-gO6"/>
+                                    <constraint firstItem="F4n-1f-3lN" firstAttribute="top" secondItem="hau-0w-mwB" secondAttribute="top" id="vgK-Ji-iTr"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dy2-eO-cin"/>
+                        <color key="backgroundColor" name="FFFFFF"/>
+                        <constraints>
+                            <constraint firstItem="NRR-qt-4Tc" firstAttribute="top" secondItem="O4g-DD-UaM" secondAttribute="top" id="777-Tq-iNO"/>
+                            <constraint firstItem="dy2-eO-cin" firstAttribute="trailing" secondItem="hau-0w-mwB" secondAttribute="trailing" id="9th-oX-FRl"/>
+                            <constraint firstItem="uJe-CV-gwX" firstAttribute="height" secondItem="dy2-eO-cin" secondAttribute="height" multiplier="0.52" id="KNY-Br-wxo"/>
+                            <constraint firstAttribute="trailing" secondItem="NRR-qt-4Tc" secondAttribute="trailing" id="PRQ-Pu-Udj"/>
+                            <constraint firstItem="hau-0w-mwB" firstAttribute="leading" secondItem="dy2-eO-cin" secondAttribute="leading" id="XS2-Yd-6hG"/>
+                            <constraint firstItem="NRR-qt-4Tc" firstAttribute="height" secondItem="O4g-DD-UaM" secondAttribute="height" multiplier="0.5" id="g4U-ll-wzD"/>
+                            <constraint firstItem="NRR-qt-4Tc" firstAttribute="leading" secondItem="dy2-eO-cin" secondAttribute="leading" id="uSv-nW-SKC"/>
+                            <constraint firstItem="hau-0w-mwB" firstAttribute="top" secondItem="dy2-eO-cin" secondAttribute="top" constant="10" id="uwu-xg-oDs"/>
+                            <constraint firstAttribute="bottom" secondItem="hau-0w-mwB" secondAttribute="bottom" id="yVe-0C-uGi"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="myView" destination="uJe-CV-gwX" id="o4y-FM-Rjf"/>
+                        <outlet property="superView" destination="hau-0w-mwB" id="Kao-bb-cWG"/>
+                        <outlet property="swipeUpView" destination="Kmc-8B-o1h" id="aEg-nI-iik"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2jF-H4-xEk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4429.6000000000004" y="-38.423645320197046"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ic_Boarding" width="257" height="260"/>
         <image name="ic_LaunchBackground" width="375" height="812"/>
+        <image name="ic_NFC" width="96" height="96"/>
+        <image name="ic_QRCode" width="70" height="70"/>
+        <image name="ic_QRScanner" width="70" height="70"/>
         <image name="ic_ReferFriendExit" width="30" height="30"/>
         <image name="ic_addInformation" width="36" height="36"/>
         <image name="ic_copy" width="21" height="21"/>
@@ -763,6 +910,8 @@ Profile</string>
         <image name="ic_leftArrow" width="30" height="30"/>
         <image name="ic_publishProfile" width="36" height="36"/>
         <image name="ic_rightArrow" width="30" height="30"/>
+        <image name="ic_swipeDown" width="107" height="29.666666030883789"/>
+        <image name="ic_swipeUp" width="107" height="29.666666030883789"/>
         <image name="ic_twitter" width="24" height="24"/>
         <image name="ic_whatsapp" width="24" height="24"/>
         <namedColor name="1D1761">

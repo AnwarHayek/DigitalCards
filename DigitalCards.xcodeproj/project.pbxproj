@@ -41,11 +41,15 @@
 		4B368BDC2992D0F300A5C477 /* WalletHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B368BDB2992D0F300A5C477 /* WalletHeader.xib */; };
 		4B368BE02992D6A100A5C477 /* WalletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B368BDE2992D6A100A5C477 /* WalletCell.swift */; };
 		4B368BE12992D6A100A5C477 /* WalletCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B368BDF2992D6A100A5C477 /* WalletCell.xib */; };
-		4B4FCE0429980A76006308C9 /* SocailMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FCE0329980A76006308C9 /* SocailMediaViewController.swift */; };
 		4B4FCE0829980AD9006308C9 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FCE0629980AD9006308C9 /* ContactsTableViewCell.swift */; };
 		4B4FCE0929980AD9006308C9 /* ContactsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FCE0729980AD9006308C9 /* ContactsTableViewCell.xib */; };
 		4B66D2F629924E5E00D3E484 /* Separate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B66D2F529924E5E00D3E484 /* Separate.xib */; };
 		4B66D2F829924E6E00D3E484 /* Separate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66D2F729924E6E00D3E484 /* Separate.swift */; };
+		4BA22EF529A374320072E248 /* SocailMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA22EF429A374320072E248 /* SocailMediaViewController.swift */; };
+		4BA22EFC29A374D80072E248 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA22EFB29A374D80072E248 /* DashboardViewController.swift */; };
+		4BA22EFF29A393470072E248 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA22EFE29A393470072E248 /* ShareViewController.swift */; };
+		4BA22F0B29A398520072E248 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA22F0929A398520072E248 /* Chart.swift */; };
+		4BA22F0C29A398530072E248 /* Chart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA22F0A29A398520072E248 /* Chart.xib */; };
 		4BA650F42991714F00D34333 /* MenuHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA650F32991714F00D34333 /* MenuHeader.xib */; };
 		4BA650F62991716B00D34333 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA650F52991716B00D34333 /* MenuHeader.swift */; };
 		4BA650FC29917AF500D34333 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA650FA29917AF500D34333 /* MenuCell.swift */; };
@@ -109,11 +113,15 @@
 		4B368BDB2992D0F300A5C477 /* WalletHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletHeader.xib; sourceTree = "<group>"; };
 		4B368BDE2992D6A100A5C477 /* WalletCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCell.swift; sourceTree = "<group>"; };
 		4B368BDF2992D6A100A5C477 /* WalletCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletCell.xib; sourceTree = "<group>"; };
-		4B4FCE0329980A76006308C9 /* SocailMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocailMediaViewController.swift; sourceTree = "<group>"; };
 		4B4FCE0629980AD9006308C9 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
 		4B4FCE0729980AD9006308C9 /* ContactsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsTableViewCell.xib; sourceTree = "<group>"; };
 		4B66D2F529924E5E00D3E484 /* Separate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Separate.xib; sourceTree = "<group>"; };
 		4B66D2F729924E6E00D3E484 /* Separate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separate.swift; sourceTree = "<group>"; };
+		4BA22EF429A374320072E248 /* SocailMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocailMediaViewController.swift; sourceTree = "<group>"; };
+		4BA22EFB29A374D80072E248 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		4BA22EFE29A393470072E248 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		4BA22F0929A398520072E248 /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		4BA22F0A29A398520072E248 /* Chart.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Chart.xib; sourceTree = "<group>"; };
 		4BA650F32991714F00D34333 /* MenuHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuHeader.xib; sourceTree = "<group>"; };
 		4BA650F52991716B00D34333 /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
 		4BA650FA29917AF500D34333 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
@@ -204,12 +212,14 @@
 			children = (
 				0405BD2A298BB582007153C0 /* Xibs */,
 				E76B6CC8298FE02D0017659F /* MainNavigationViewController.swift */,
+				4BA22EF829A374880072E248 /* Dashboard */,
 				4B4FCE0229980A58006308C9 /* SocailMedia */,
 				E76B6CB9298FD7C10017659F /* TabBar */,
 				04DE4202298CFA4000AB0744 /* Boarding */,
 				4B368BD52992CF3400A5C477 /* Wallet */,
 				4BEC42152993BA04003936CD /* ReferFriend */,
 				4BD6680C2993E70F002627B7 /* Memberships */,
+				4BA22EFD29A393190072E248 /* Share */,
 				4BDD77402991554200F1A66C /* Menu */,
 			);
 			path = ViewControllers;
@@ -365,7 +375,7 @@
 		4B4FCE0229980A58006308C9 /* SocailMedia */ = {
 			isa = PBXGroup;
 			children = (
-				4B4FCE0329980A76006308C9 /* SocailMediaViewController.swift */,
+				4BA22EF429A374320072E248 /* SocailMediaViewController.swift */,
 			);
 			path = SocailMedia;
 			sourceTree = "<group>";
@@ -386,6 +396,31 @@
 				4B66D2F729924E6E00D3E484 /* Separate.swift */,
 			);
 			path = Separate;
+			sourceTree = "<group>";
+		};
+		4BA22EF829A374880072E248 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4BA22EFB29A374D80072E248 /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		4BA22EFD29A393190072E248 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				4BA22EFE29A393470072E248 /* ShareViewController.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		4BA22F0029A397CB0072E248 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				4BA22F0929A398520072E248 /* Chart.swift */,
+				4BA22F0A29A398520072E248 /* Chart.xib */,
+			);
+			path = Chart;
 			sourceTree = "<group>";
 		};
 		4BA650F22991711200D34333 /* Menu */ = {
@@ -476,6 +511,7 @@
 		E76B6CB4298FCE700017659F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4BA22F0029A397CB0072E248 /* Chart */,
 				4B1464B72997A69600361DFC /* MembershipsSeparate */,
 				4BD6680F2993E7CA002627B7 /* Memberships */,
 				4B368BD82992D0B500A5C477 /* Wallet */,
@@ -630,6 +666,7 @@
 				4B368BE12992D6A100A5C477 /* WalletCell.xib in Resources */,
 				4B1464BB2997A6F300361DFC /* MembershipsSeparateHeader.xib in Resources */,
 				4BD668132993E819002627B7 /* MembershipsHeader.xib in Resources */,
+				4BA22F0C29A398530072E248 /* Chart.xib in Resources */,
 				0409631E298D5CDE00B447D6 /* BoardingCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,9 +725,11 @@
 				4BD6680E2993E76C002627B7 /* MembershipsViewController.swift in Sources */,
 				4BC3FF2E2997FBF10058AF8C /* UITextFieldEx.swift in Sources */,
 				E76B6CCB298FE4DB0017659F /* Strings.swift in Sources */,
+				4BA22F0B29A398520072E248 /* Chart.swift in Sources */,
 				E76B6CD0299014170017659F /* CardCollectionViewCell.swift in Sources */,
 				4BA650F62991716B00D34333 /* MenuHeader.swift in Sources */,
 				4B66D2F829924E6E00D3E484 /* Separate.swift in Sources */,
+				4BA22EFC29A374D80072E248 /* DashboardViewController.swift in Sources */,
 				4B368BDA2992D0EA00A5C477 /* WalletHeader.swift in Sources */,
 				E76B6CC9298FE02D0017659F /* MainNavigationViewController.swift in Sources */,
 				04096322298D6B1B00B447D6 /* UIKitHelpers.swift in Sources */,
@@ -709,19 +748,20 @@
 				4B1464C92997CF7500361DFC /* UISwitchEx.swift in Sources */,
 				4B368BE02992D6A100A5C477 /* WalletCell.swift in Sources */,
 				E76B6CC2298FD81F0017659F /* FindPeopleViewController.swift in Sources */,
+				4BA22EF529A374320072E248 /* SocailMediaViewController.swift in Sources */,
 				4B4FCE0829980AD9006308C9 /* ContactsTableViewCell.swift in Sources */,
 				04096317298D3D9000B447D6 /* UICollectionViewEx.swift in Sources */,
 				4BDD77422991555A00F1A66C /* MenuViewController.swift in Sources */,
 				4BC3FF282997FAF20058AF8C /* Contacts.swift in Sources */,
 				E76B6CB8298FCEC80017659F /* DataViewController.swift in Sources */,
 				04DE4201298CF95500AB0744 /* GlobalConstants.swift in Sources */,
+				4BA22EFF29A393470072E248 /* ShareViewController.swift in Sources */,
 				4BD668112993E809002627B7 /* MembershipsHeader.swift in Sources */,
 				04096319298D3DC300B447D6 /* UIResponderEx.swift in Sources */,
 				4BA650FC29917AF500D34333 /* MenuCell.swift in Sources */,
 				4BAD00A52996682A00DF519A /* CustomCorner .swift in Sources */,
 				04A9E423298EEECE00A09997 /* UIViewControllerEx.swift in Sources */,
 				0405BD3D298BBBC6007153C0 /* UIColorEx.swift in Sources */,
-				4B4FCE0429980A76006308C9 /* SocailMediaViewController.swift in Sources */,
 				0405BD17298BB51B007153C0 /* SceneDelegate.swift in Sources */,
 				4B1464B92997A6ED00361DFC /* MembershipsSeparateHeader.swift in Sources */,
 				4BC3FF2C2997FBF10058AF8C /* UITableViewEx.swift in Sources */,
