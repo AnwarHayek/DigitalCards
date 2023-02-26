@@ -4,10 +4,11 @@
 target 'DigitalCards' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  
   # Pods for DigitalCards
-    pod 'JXPageControl'
-    pod 'GravitySliderFlowLayout'
-    pod 'PieCharts'
-    pod 'SwiftCharts', '~> 0.6.5'
+  pod 'JXPageControl'
+  pod 'GravitySliderFlowLayout'
+  pod 'PieCharts'
+  pod 'SwiftCharts', '~> 0.6.5'
+  
 end

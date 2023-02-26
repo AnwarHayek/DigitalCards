@@ -6,7 +6,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -40,9 +39,21 @@
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xe3-bb-bOl" customClass="PieChart" customModule="PieCharts">
                                     <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="172" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkp-ZB-YQ6">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
+                                        <constraint firstItem="Lkp-ZB-YQ6" firstAttribute="leading" secondItem="Xe3-bb-bOl" secondAttribute="leading" id="2Ga-xn-aLl"/>
                                         <constraint firstAttribute="height" constant="100" id="KxG-RE-KFO"/>
+                                        <constraint firstAttribute="trailing" secondItem="Lkp-ZB-YQ6" secondAttribute="trailing" id="RX9-ZG-be1"/>
+                                        <constraint firstAttribute="bottom" secondItem="Lkp-ZB-YQ6" secondAttribute="bottom" id="U3N-3c-Hdx"/>
+                                        <constraint firstItem="Lkp-ZB-YQ6" firstAttribute="top" secondItem="Xe3-bb-bOl" secondAttribute="top" id="b82-BD-Onq"/>
                                         <constraint firstAttribute="width" constant="100" id="fOK-94-XFF"/>
                                     </constraints>
                                     <userDefinedRuntimeAttributes>
@@ -185,8 +196,5 @@
         <namedColor name="F5F8FA">
             <color red="0.96078431372549022" green="0.97254901960784312" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

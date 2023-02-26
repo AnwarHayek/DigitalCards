@@ -45,7 +45,7 @@ extension MainNavigationController {
         UIBarButtonItem.appearance().tintColor = .white
 
         //Edit Font Small Title
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.font: Sora_SemiBold24]
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black, NSAttributedString.Key.font: Sora_SemiBold24]
 
         //Delete Shadow
         UINavigationBar.appearance().shadowImage = UIImage.init()

@@ -22,3 +22,11 @@ let RESULT_TITLE = "search result/s found"._localize
 
 // MARK: - SocailMedia
 let SOCAIL_TITLE = "Socail Media"._localize
+
+// MARK: - Filter
+let TYPES_CONTACT_TITLE = "Types of Contacts"._localize
+let TAGS_TITLE = "Tags"._localize
+let COUNTRY_TITLE = "Counrty"._localize
+let SOCAIL_NET_TITLE = "Socail Network"._localize
+let COMPANY_TITLE = "Company"._localize
+let FILTERS_TITLE = "Filters"._localize

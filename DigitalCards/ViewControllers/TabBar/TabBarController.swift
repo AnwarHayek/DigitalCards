@@ -48,7 +48,7 @@ class TabBarController: UITabBarController {
     }
 
     private func setUpViews() {
-        let vc1: DataViewController = DataViewController.instantiate(appStoryboard: .Third)
+        let vc1: DashboardViewController = DashboardViewController.instantiate(appStoryboard: .Third)
         vc1.tabBarItem = UITabBarItem(title: DATA_TITLE, image: ic_unSelectedData, selectedImage: ic_selectedData)
         let vc2: ContactsViewController = ContactsViewController.instantiate(appStoryboard: .Second)
         vc2.isCardView = true
@@ -94,6 +94,10 @@ extension TabBarController {
 
     @objc func shareAction() {
         debugPrint(#function)
+        let vc: SocailMediaViewController = SocailMediaViewController.instantiate(appStoryboard: .Second)
+        vc.modalPresentationStyle = .custom
+        vc.modalTransitionStyle = .crossDissolve
+        vc._presentVC()
     }
 
     @objc func settingAction() {

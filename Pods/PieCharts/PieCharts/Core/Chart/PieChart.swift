@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable open class PieChart: UIView {
+open class PieChart: UIView {
     
     // MARK: - Settings
     

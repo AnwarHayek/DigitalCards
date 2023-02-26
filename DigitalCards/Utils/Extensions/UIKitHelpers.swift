@@ -15,6 +15,13 @@ class rView: UIView {
     }
 }
 
+class rStack: UIStackView {
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        self.layer.cornerRadius = self.frame.height / 2
+    }
+}
+
 class rLabel: UILabel {
     override func layoutSubviews() {
         super.layoutSubviews()

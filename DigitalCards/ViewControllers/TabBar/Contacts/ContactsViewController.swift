@@ -38,6 +38,11 @@ class ContactsViewController: UIViewController {
 
     @IBAction func filterAction(_ sender: Any) {
         debugPrint(#function)
+        let vc: FiltersViewController = FiltersViewController.instantiate(appStoryboard: .Second)
+//        vc.modalTransitionStyle = .crossDissolve
+//        vc.modalPresentationStyle = .custom
+//        vc._presentVC()
+        vc._push()
     }
 
 }
