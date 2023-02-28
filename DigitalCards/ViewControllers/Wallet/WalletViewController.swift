@@ -14,9 +14,6 @@ class WalletViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        localized()
-        setupData()
-        fetchData()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -39,18 +36,6 @@ extension WalletViewController {
         self.tableView.cornerRadius = 20
     }
 
-    func localized() {
-
-    }
-
-    func setupData() {
-
-    }
-
-    func fetchData() {
-
-    }
-
 }
 
 extension WalletViewController {
@@ -58,7 +43,7 @@ extension WalletViewController {
     func configuerNavigationItems() {
         self.navigationItem.leftBarButtonItems = [
             UIBarButtonItem(image: ic_menu, style: .plain, target: self, action: #selector(menuAction)),
-            self.barButtonItem(title: "Wallet")
+            self.barButtonItem(title: WALLET_TITLE)
         ]
         self.navigationItem.rightBarButtonItems = [
             UIBarButtonItem(image: ic_grennWallet, style: .plain, target: self, action: #selector(walletAction)),

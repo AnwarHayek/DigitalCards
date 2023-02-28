@@ -18,7 +18,6 @@ struct Contacts {
         }
         return false
     }
-
 }
 
 struct Contact {

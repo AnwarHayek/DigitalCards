@@ -16,9 +16,6 @@ class MembershipsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        localized()
-        setupData()
-        fetchData()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -43,18 +40,6 @@ extension MembershipsViewController {
         self.tableView.cornerRadius = 20
     }
 
-    func localized() {
-
-    }
-
-    func setupData() {
-
-    }
-
-    func fetchData() {
-
-    }
-
 }
 
 extension MembershipsViewController {
@@ -66,7 +51,7 @@ extension MembershipsViewController {
     func configuerNavigationItems() {
         self.navigationItem.leftBarButtonItems = [
             UIBarButtonItem(image: ic_menu, style: .plain, target: self, action: #selector(back)),
-            self.barButtonItem(title: "Memberships")
+            self.barButtonItem(title: MEMBERSHIPS_TITLE)
         ]
     }
 }

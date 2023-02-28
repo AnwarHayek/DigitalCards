@@ -80,6 +80,9 @@
 		E78C44D429AAECAC005AB085 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78C44D329AAECAC005AB085 /* TableViewController.swift */; };
 		E78C44D829AAEF87005AB085 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78C44D629AAEF87005AB085 /* TitleTableViewCell.swift */; };
 		E78C44D929AAEF87005AB085 /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78C44D729AAEF87005AB085 /* TitleTableViewCell.xib */; };
+		E7D5AB9F29AD73DB00B47C33 /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5AB9D29AD73DB00B47C33 /* NotificationsTableViewCell.swift */; };
+		E7D5ABA029AD73DB00B47C33 /* NotificationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7D5AB9E29AD73DB00B47C33 /* NotificationsTableViewCell.xib */; };
+		E7D5ABA229AD74A500B47C33 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5ABA129AD74A500B47C33 /* Notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -159,6 +162,9 @@
 		E78C44D329AAECAC005AB085 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E78C44D629AAEF87005AB085 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		E78C44D729AAEF87005AB085 /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
+		E7D5AB9D29AD73DB00B47C33 /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		E7D5AB9E29AD73DB00B47C33 /* NotificationsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationsTableViewCell.xib; sourceTree = "<group>"; };
+		E7D5ABA129AD74A500B47C33 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		F9ED9E4882FD94AADA11B1D6 /* Pods-DigitalCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalCards.debug.xcconfig"; path = "Target Support Files/Pods-DigitalCards/Pods-DigitalCards.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -404,8 +410,8 @@
 		4B66D2EF29924C7D00D3E484 /* Separate */ = {
 			isa = PBXGroup;
 			children = (
-				4B66D2F529924E5E00D3E484 /* Separate.xib */,
 				4B66D2F729924E6E00D3E484 /* Separate.swift */,
+				4B66D2F529924E5E00D3E484 /* Separate.xib */,
 			);
 			path = Separate;
 			sourceTree = "<group>";
@@ -438,8 +444,8 @@
 		4BA650F22991711200D34333 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				4BA650F32991714F00D34333 /* MenuHeader.xib */,
 				4BA650F52991716B00D34333 /* MenuHeader.swift */,
+				4BA650F32991714F00D34333 /* MenuHeader.xib */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -481,8 +487,8 @@
 		4BD668182993F405002627B7 /* OfferPrice */ = {
 			isa = PBXGroup;
 			children = (
-				4BD668152993F401002627B7 /* OfferPriceCell.xib */,
 				4BD668142993F401002627B7 /* OfferPriceCell.swift */,
+				4BD668152993F401002627B7 /* OfferPriceCell.xib */,
 			);
 			path = OfferPrice;
 			sourceTree = "<group>";
@@ -516,6 +522,7 @@
 			isa = PBXGroup;
 			children = (
 				4BC3FF272997FAF20058AF8C /* Contacts.swift */,
+				E7D5ABA129AD74A500B47C33 /* Notification.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -536,6 +543,7 @@
 		E76B6CB5298FCE860017659F /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				E7D5AB9C29AD73C300B47C33 /* Notifications */,
 				E78C44D529AAEF74005AB085 /* Title */,
 				4B4FCE0529980AC4006308C9 /* Contacts */,
 				4B1464C12997B06500361DFC /* MaximumNumber */,
@@ -625,6 +633,15 @@
 			path = Title;
 			sourceTree = "<group>";
 		};
+		E7D5AB9C29AD73C300B47C33 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				E7D5AB9D29AD73DB00B47C33 /* NotificationsTableViewCell.swift */,
+				E7D5AB9E29AD73DB00B47C33 /* NotificationsTableViewCell.xib */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -696,6 +713,7 @@
 				4BA650FD29917AF500D34333 /* MenuCell.xib in Resources */,
 				4BA650F42991714F00D34333 /* MenuHeader.xib in Resources */,
 				4B1464C02997A9E800361DFC /* MembershipsCell.xib in Resources */,
+				E7D5ABA029AD73DB00B47C33 /* NotificationsTableViewCell.xib in Resources */,
 				4B368BDC2992D0F300A5C477 /* WalletHeader.xib in Resources */,
 				E78C44D929AAEF87005AB085 /* TitleTableViewCell.xib in Resources */,
 				E76B6CD1299014170017659F /* CardCollectionViewCell.xib in Resources */,
@@ -777,6 +795,7 @@
 				0409631D298D5CDE00B447D6 /* BoardingCell.swift in Sources */,
 				E76B6CBF298FD8050017659F /* ContactsViewController.swift in Sources */,
 				0405BD15298BB51B007153C0 /* AppDelegate.swift in Sources */,
+				E7D5ABA229AD74A500B47C33 /* Notification.swift in Sources */,
 				4BD6681A29941967002627B7 /* PagingCollectionViewLayout.swift in Sources */,
 				0405BD3F298BBBE5007153C0 /* StringEx.swift in Sources */,
 				4BD668162993F401002627B7 /* OfferPriceCell.swift in Sources */,
@@ -796,6 +815,7 @@
 				4BC3FF282997FAF20058AF8C /* Contacts.swift in Sources */,
 				04DE4201298CF95500AB0744 /* GlobalConstants.swift in Sources */,
 				E78C44CC29AAD228005AB085 /* FiltersViewController.swift in Sources */,
+				E7D5AB9F29AD73DB00B47C33 /* NotificationsTableViewCell.swift in Sources */,
 				4BA22EFF29A393470072E248 /* ShareViewController.swift in Sources */,
 				4BD668112993E809002627B7 /* MembershipsHeader.swift in Sources */,
 				04096319298D3DC300B447D6 /* UIResponderEx.swift in Sources */,

@@ -18,14 +18,11 @@ class MenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        localized()
         setupData()
-        fetchData()
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-
     }
 
 }
@@ -42,31 +39,23 @@ extension MenuViewController {
         self.tableView._registerCell = MenuCell.self
         self.tableView._registerHeaderAndFooter = MenuHeader.self
         self.tableView._registerHeaderAndFooter = Separate.self
-        let imageView = UIImageView.init(image: "ic_MenuBackground"._toImage)
+        let imageView = UIImageView.init(image: ic_MenuBackground)
         imageView.contentMode = .scaleAspectFill
         self.tableView.backgroundView = imageView
     }
 
-    func localized() {
-
-    }
-
     func setupData() {
-        objects[0].append((image: "ic_wallet", title: "Wallet", hint: "23$"))
-        objects[0].append((image: "ic_loyaltyProgram", title: "Loyalty Program", hint: "23 Point"))
-        objects[0].append((image: "ic_membership", title: "Membership", hint: ""))
-        objects[0].append((image: "ic_mySubscriptions", title: "My Subscriptions", hint: ""))
+        objects[0].append((image: "ic_wallet", title: WALLET_TITLE, hint: "23$"))
+        objects[0].append((image: "ic_loyaltyProgram", title: LOYALTY_TITLE, hint: "23 Point"))
+        objects[0].append((image: "ic_membership", title: MEMBERSHIP_TITLE, hint: ""))
+        objects[0].append((image: "ic_mySubscriptions", title: SUBSCRIPTIONS_TITLE, hint: ""))
 
-        objects.append([(image: "ic_FAQ", title: "FAQ", hint: "")])
-        objects[1].append((image: "ic_aboutUs", title: "About Us", hint: ""))
-        objects[1].append((image: "ic_contactUs", title: "Contact Us", hint: ""))
-        objects[1].append((image: "ic_rateApp", title: "Rate App", hint: ""))
-        objects.append([(image: "ic_logout", title: "Sign Out", hint: "")])
+        objects.append([(image: "ic_FAQ", title: FAQ_TITLE, hint: "")])
+        objects[1].append((image: "ic_aboutUs", title: ABOUT_US_TITLE, hint: ""))
+        objects[1].append((image: "ic_contactUs", title: CONTACT_US_TITLE, hint: ""))
+        objects[1].append((image: "ic_rateApp", title: RATE_TITLE, hint: ""))
+        objects.append([(image: "ic_logout", title: SIGN_OUT_TITLE, hint: "")])
         self.tableView.reloadData()
-    }
-
-    func fetchData() {
-
     }
 
 }

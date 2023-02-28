@@ -33,7 +33,7 @@
                                         <rect key="frame" x="0.0" y="8" width="394" height="36"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="zsd-Fd-c6N">
-                                                <rect key="frame" x="16" y="0.0" width="170" height="36"/>
+                                                <rect key="frame" x="16" y="0.0" width="212" height="36"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo" translatesAutoresizingMaskIntoConstraints="NO" id="dlq-cE-bGU">
                                                         <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
@@ -47,8 +47,8 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mohammed skaik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGo-au-3Fx">
-                                                        <rect key="frame" x="52" y="10" width="118" height="16.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mohammed Saieb Skaik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGo-au-3Fx">
+                                                        <rect key="frame" x="52" y="10" width="160" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="Sora-SemiBold" family="Sora" pointSize="13"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>

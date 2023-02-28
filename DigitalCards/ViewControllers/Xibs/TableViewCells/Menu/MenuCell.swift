@@ -33,7 +33,7 @@ class MenuCell: UITableViewCell {
             self.lblTitle.text = object.title
         }
         if section == 2 {
-            self.lblTitle.textColor = "#FF4848"._color
+            self.lblTitle.textColor = color_FF4848
         }
     }
 }

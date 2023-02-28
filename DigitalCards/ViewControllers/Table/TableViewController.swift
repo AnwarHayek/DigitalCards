@@ -35,7 +35,7 @@ extension TableViewController {
     
     private func setUpData() {
         if let object {
-            self.title = object + " Page"
+            self.title = object + PAGE_TITLE
         }
     }
 }

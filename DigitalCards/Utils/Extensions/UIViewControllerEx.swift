@@ -17,11 +17,6 @@ extension UIViewController {
         return storyboard.instantiateViewController(withIdentifier: identifier) as! T
     }
 
-    // MARK: Change RootViewController
-    func changeRootViewController(_ vc: UIViewController) {
-        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(vc)
-    }
-
     // MARK: Transfers Shortcuts
     func _rootPush() {
         AppDelegate.shared?.rootNavigationController?.setViewControllers([self], animated: true)
@@ -64,7 +59,7 @@ extension UIViewController {
     func barButtonItem(title: String) -> UIBarButtonItem {
         let titleLabel = UILabel()
         let titleBarButton = UIBarButtonItem()
-        
+
         titleLabel.frame = CGRect.init(x: 0, y: 0, width: 145, height: 24)
         titleLabel.textColor = color_FFFFFF
         titleLabel.font = Sora_SemiBold18
@@ -74,90 +69,13 @@ extension UIViewController {
     }
 }
 
+// MARK: - Alerts Shortcuts
 extension UIViewController {
-
-//    var _getStatusBarHeightBottom: CGFloat? {
-//        return UIApplication.shared.keyWindow?.safeAreaInsets.bottom
-//    }
-//
-//    var _getStatusBarHeightTop: CGFloat? {
-//        return UIApplication.shared.keyWindow?.safeAreaInsets.top
-//    }
-//
-//    var _screenHeight: CGFloat {
-//        return UIScreen.main.bounds.height
-//    }
-//
-//    var _screenWidth: CGFloat {
-//        return UIScreen.main.bounds.width
-//    }
-//
-//    var _isHideNavigation: Bool {
-//        set {
-//            self.navigationController?.setNavigationBarHidden(newValue, animated: true)
-//        }
-//        get {
-//            return self.navigationController?.isNavigationBarHidden ?? false
-//        }
-//    }
-//
-//    func _emptyImgaeNavigation() {
-//        self.navigationController?.navigationBar.setBackgroundImage(UIImage.init(), for: .top, barMetrics: .default)
-//    }
-//
-//    func _nilImgaeNavigation() {
-//        self.navigationController?.navigationBar.setBackgroundImage(nil, for: .default)
-//    }
-//
-//    func _setTitleBackBarButton() {
-//        navigationController?.navigationBar.topItem?.backButtonTitle = ""
-//        navigationController?.navigationBar.tintColor = color_1E1F20
-//    }
-//
+    func _showAlertOK(title: String?, message: String?) {
+        let alert = UIAlertController.init(title: title, message: message, preferredStyle: .alert)
+        let okayAction = UIAlertAction.init(title: "OK", style: .default)
+        alert.addAction(okayAction)
+        alert._presentVC()
+    }
 }
 
-
-//// MARK: - Alerts Shortcuts
-//extension UIViewController {
-//    func _showAlertOK(title: String = ALERT_TITLE, message: String?, okButtonAction: (() -> Void)? = nil) {
-//        let alert = UIAlertController.init(title: title, message: message, preferredStyle: .alert)
-//        let okayAction = UIAlertAction.init(title: OK_TITLE, style: .default) { action in
-//            okButtonAction?()
-//        }
-//        alert.addAction(okayAction)
-//        alert._presentVC()
-//    }
-//
-//    func _showErrorAlertOK(title: String = ERROR_TITLE, message: String?, okButtonAction: (() -> Void)? = nil) {
-//        let alert = UIAlertController.init(title: title, message: message, preferredStyle: .alert)
-//        let okayAction = UIAlertAction.init(title: OK_TITLE, style: .destructive) { action in
-//            okButtonAction?()
-//        }
-//
-//        alert.addAction(okayAction)
-//        alert._presentVC()
-//    }
-//
-//    func _showAlert(title: String = ALERT_TITLE, message: String?, buttonTitle1: String = OK_TITLE, buttonTitle2: String = CANCEL_TITLE, buttonAction1: @escaping (() -> Void), buttonAction2: (() -> Void)?) {
-//        let alert = UIAlertController.init(title: title, message: message, preferredStyle: .alert)
-//        let okayAction = UIAlertAction.init(title: buttonTitle1, style: .default) { action in
-//            debugPrint("Okay aciton is pressed")
-//            buttonAction1()
-//        }
-//        let cancelAction = UIAlertAction.init(title: buttonTitle2, style: .cancel) { action in
-//            debugPrint("Cancel aciton is pressed")
-//            buttonAction2?()
-//        }
-//        alert.addAction(okayAction)
-//        alert.addAction(cancelAction)
-//        alert._presentVC()
-//    }
-//
-//    func sharing(items: [Any]) {
-//        let activityViewController = UIActivityViewController(activityItems: items, applicationActivities: nil)
-//        activityViewController.popoverPresentationController?.sourceView = self.view
-//        activityViewController._presentVC()
-//    }
-//
-//}
-//

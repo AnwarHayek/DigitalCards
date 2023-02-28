@@ -34,7 +34,6 @@ class FindPeopleViewController: UIViewController {
         super.viewDidLoad()
         self.setUpView()
         self.setUpData()
-        self.fetchData()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -51,7 +50,8 @@ class FindPeopleViewController: UIViewController {
     }
 
     @IBAction func filterAction(_ sender: Any) {
-        debugPrint(#function)
+        let vc: FiltersViewController = FiltersViewController.instantiate(appStoryboard: .Second)
+        vc._push()
     }
 }
 
@@ -75,10 +75,6 @@ extension FindPeopleViewController {
     private func setUpData() {
         let result = RESULT_TITLE
         self.resultLabel.text =  "\(contacts.count) \(result)"
-    }
-
-    private func fetchData() {
-
     }
 
 }

@@ -8,28 +8,7 @@
 import Foundation
 import UIKit
 
-class rView: UIView {
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        self.layer.cornerRadius = self.frame.height / 2
-    }
-}
-
 class rStack: UIStackView {
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        self.layer.cornerRadius = self.frame.height / 2
-    }
-}
-
-class rLabel: UILabel {
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        self.layer.cornerRadius = self.frame.height / 2
-    }
-}
-
-class rButton: UIButton {
     override func layoutSubviews() {
         super.layoutSubviews()
         self.layer.cornerRadius = self.frame.height / 2
@@ -42,11 +21,3 @@ class rImage: UIImageView {
         self.layer.cornerRadius = self.frame.height / 2.0
     }
 }
-
-class rSwitch: UISwitch {
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        self.layer.cornerRadius = self.frame.height / 2
-    }
-}
-

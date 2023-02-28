@@ -28,9 +28,6 @@ class BoardingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        localized()
-        setupData()
-        fetchData()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -52,8 +49,6 @@ class BoardingViewController: UIViewController {
     @IBAction func btnSkip(_ sender: Any) {
         let vc = TabBarController()
         vc._rootPush()
-//        let vc = ShareViewController.instantiate(appStoryboard: .Third)
-//        vc._push()
     }
 }
 
@@ -64,18 +59,6 @@ extension BoardingViewController {
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         self.btnStartNow.isHidden = true
-    }
-
-    func localized() {
-
-    }
-
-    func setupData() {
-
-    }
-
-    func fetchData() {
-
     }
 }
 

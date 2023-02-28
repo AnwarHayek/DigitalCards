@@ -14,9 +14,6 @@ class ReferFriendViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        localized()
-        setupData()
-        fetchData()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -34,18 +31,6 @@ extension ReferFriendViewController {
         let maskedCorners = self.view._roundCorners(isTopLeft: true, isTopRight: true)
         self.containerView.layer.maskedCorners = maskedCorners
         self.containerView.cornerRadius = 20
-    }
-
-    func localized() {
-
-    }
-
-    func setupData() {
-
-    }
-
-    func fetchData() {
-
     }
 
 }

@@ -40,9 +40,9 @@ class Chart: UIView {
 
     func setupView() {
         chartView.models = [
-            PieSliceModel(value: 2.1, color: "#FFB300"._color),
-            PieSliceModel(value: 3, color: "#0090FF"._color),
-            PieSliceModel(value: 1, color: "#02B28E"._color)
+            PieSliceModel(value: 2.1, color: color_FFB300),
+            PieSliceModel(value: 3, color: color_0090FF),
+            PieSliceModel(value: 1, color: color_02B28E)
         ]
     }
 }

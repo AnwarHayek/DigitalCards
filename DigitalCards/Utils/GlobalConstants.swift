@@ -25,6 +25,12 @@ let color_green = "green"._color
 let color_888888 = "888888"._color
 let color_E3E8EF = "E3E8EF"._color
 let color_F5F8FA = "F5F8FA"._color
+let color_FFB300 = "FFB300"._color
+let color_0090FF = "0090FF"._color
+let color_02B28E = "02B28E"._color
+let color_242333 = "242333"._color
+let color_CCF0E8 = "CCF0E8"._color
+let color_FF4848 = "FF4848"._color
 
 // MARK: - Enum
 enum AppStoryboard: String {
@@ -58,6 +64,7 @@ let ic_selectedPoint = "ic_selectedPoint"._toImage
 let ic_unselectedPoint = "ic_unselectedPoint"._toImage
 let ic_star = "ic_star"._toImage
 let ic_search = "ic_search"._toImage
+let ic_MenuBackground = "ic_MenuBackground"._toImage
 
 
 // MARK: - Demo

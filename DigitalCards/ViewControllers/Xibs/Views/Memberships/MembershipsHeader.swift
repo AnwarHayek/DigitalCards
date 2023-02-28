@@ -40,12 +40,12 @@ class MembershipsHeader: UITableViewHeaderFooterView {
     @IBAction func mySwitch(_ sender: Any) {
         self.yearly.toggle()
         if self.yearly {
-            self.lblYearly.textColor = "#242333"._color
-            self.lblMonthly.textColor = "#888888"._color
+            self.lblYearly.textColor = color_242333
+            self.lblMonthly.textColor = color_888888
             return
         }
-        self.lblYearly.textColor = "#888888"._color
-        self.lblMonthly.textColor = "#242333"._color
+        self.lblYearly.textColor = color_888888
+        self.lblMonthly.textColor = color_242333
     }
 }
 
@@ -72,9 +72,9 @@ extension MembershipsHeader: UIScrollViewDelegate {
     func setupSwitch() {
         self.mySwitch.sizeSwitch(scaleX: 0.65, y: 0.65)
         self.mySwitch.increaseThumb(scaleX: 0.70, y: 0.70)
-        self.mySwitch.onTintColor = "#CCF0E8"._color
-        self.mySwitch.offTint = "#CCF0E8"._color
-        self.mySwitch.thumbTintColor = "#02B28E"._color
+        self.mySwitch.onTintColor = color_CCF0E8
+        self.mySwitch.offTint = color_CCF0E8
+        self.mySwitch.thumbTintColor = color_02B28E
     }
 }
 

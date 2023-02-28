@@ -27,7 +27,7 @@ class TabBarController: UITabBarController {
 
 
     private func customizeTabBar() {
-//        //Changing tab bar color
+        //Changing tab bar color
         UITabBar.appearance().barTintColor = color_FFFFFF
         UITabBar.appearance().backgroundColor = color_FFFFFF
         UITabBar.appearance().shadowColor = color_000000
@@ -74,7 +74,6 @@ class TabBarController: UITabBarController {
             UIBarButtonItem(image: ic_setting, style: .plain, target: self, action: #selector(settingAction)),
             UIBarButtonItem(image: ic_share, style: .plain, target: self, action: #selector(shareAction)),
         ]
-
     }
 
 }
@@ -94,15 +93,16 @@ extension TabBarController {
 
     @objc func shareAction() {
         debugPrint(#function)
-        let vc: SocailMediaViewController = SocailMediaViewController.instantiate(appStoryboard: .Second)
-        vc.modalPresentationStyle = .custom
-        vc.modalTransitionStyle = .crossDissolve
-        vc._presentVC()
+//        let vc: SocailMediaViewController = SocailMediaViewController.instantiate(appStoryboard: .Second)
+//        vc.modalPresentationStyle = .custom
+//        vc.modalTransitionStyle = .crossDissolve
+//        vc._presentVC()
+        let vc = ShareViewController.instantiate(appStoryboard: .Third)
+        vc._push()
     }
 
     @objc func settingAction() {
         debugPrint(#function)
     }
-//hhhhhhhhhh3343
-    //new edit
+
 }

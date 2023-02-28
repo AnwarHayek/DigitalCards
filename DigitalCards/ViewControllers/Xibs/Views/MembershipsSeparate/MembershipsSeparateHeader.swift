@@ -20,9 +20,9 @@ class MembershipsSeparateHeader: UITableViewHeaderFooterView {
 
     func configerHeader() {
         if self.section == 1 {
-            self.lblTitle.text = "Maximum number of seats"
+            self.lblTitle.text = MAX_NUM_SEATS_TITLE
             return
         }
-        self.lblTitle.text = "File storage"
+        self.lblTitle.text = FILE_STORAGE_TITLE
     }
 }

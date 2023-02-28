@@ -33,9 +33,6 @@ class DashboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        localized()
-        setupData()
-        fetchData()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -43,12 +40,12 @@ class DashboardViewController: UIViewController {
     }
 
     @IBAction func btnLeft(_ sender: Any) {
-        self.swappingCollection(direction: .left)
+//        self.swappingCollection(direction: .left)
 
     }
 
     @IBAction func btnRight(_ sender: Any) {
-        self.swappingCollection(direction: .right)
+//        self.swappingCollection(direction: .right)
     }
 
 }
@@ -63,22 +60,8 @@ extension DashboardViewController {
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         self.collectionView._registerCell = CardCollectionViewCell.self
-        let gravitySliderLayout = GravitySliderFlowLayout(with: CGSize(width: collectionView.frame.width * 0.84, height: 200))
+        let gravitySliderLayout = GravitySliderFlowLayout(with: CGSize(width: collectionView.frame.width * 0.80, height: 220))
         self.collectionView.collectionViewLayout = gravitySliderLayout
-    }
-
-
-    func localized() {
-
-    }
-
-    func setupData() {
-
-    }
-
-    func fetchData() {
-
-
     }
 
 }
@@ -97,7 +80,7 @@ extension DashboardViewController {
     func configuerNavigationItems() {
         self.navigationItem.leftBarButtonItems = [
             UIBarButtonItem(image: ic_menu, style: .plain, target: self, action: #selector(pushMenu)),
-            self.barButtonItem(title: "Dashboard")
+            self.barButtonItem(title: DASHBOARD_TITLE)
         ]
 
         self.navigationItem.rightBarButtonItems = [

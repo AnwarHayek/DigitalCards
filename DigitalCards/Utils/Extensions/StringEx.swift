@@ -14,10 +14,6 @@ extension String {
         return UIColor.init(named: self) ?? UIColor.init(hexString: self)
     }
 
-    var _cglorcg: CGColor {
-        return self._color.cgColor
-    }
-
     var _toImage: UIImage? {
         return UIImage.init(named: self)
     }
