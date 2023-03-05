@@ -1,14 +1,10 @@
 # DigitalCards
 Digital Cards Application.
 
-### [Youtube](https://www.youtube.com/watch?v=jjKijMtLOKw)
-
-## Capabilities
-+ Create many Digital Cards.
-+ UI is friendly in Dark and Light mode
+### [Youtube](https://youtu.be/3jGddyQD3JM)
 
 ## Built With
-+ MVC Architecture
++ Auto layout
 + Swift 5.6 and UIkit
 
 ## Third Parties
